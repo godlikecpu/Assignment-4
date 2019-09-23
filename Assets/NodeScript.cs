@@ -7,6 +7,7 @@ public class NodeScript : MonoBehaviour
 {
 
     public Button btn;
+    public Button demo;
     public Color hoverColor;
     private Renderer rd;
     private Color startColor;
@@ -16,6 +17,8 @@ public class NodeScript : MonoBehaviour
     public bool unbuildable = false;
     public bool buildMode = false;
     PlayerScript player;
+    public bool demoMode = false;
+    private GameObject nodeTower;
 
     private void OnMouseEnter()
     {
@@ -36,9 +39,15 @@ public class NodeScript : MonoBehaviour
     {
         if (buildMode && !hasTower && !unbuildable && player.gold >= 10)
         {
-            Instantiate(tower, transform.position + offset, transform.rotation);
+            nodeTower = Instantiate(tower, transform.position + offset, transform.rotation);
             hasTower = true;
             player.addToGold(-10);
+        }
+        if (demoMode && hasTower)
+        {
+            Destroy(nodeTower);
+            hasTower = false;
+            player.addToGold(5);
         }
     }
 
@@ -50,7 +59,21 @@ public class NodeScript : MonoBehaviour
         }
         else
         {
+            demoMode = false;
             buildMode = true;
+        }
+    }
+
+    void toggleDemoMode()
+    {
+        if(demoMode)
+        {
+            demoMode = false;
+        }
+        else
+        {
+            demoMode = true;
+            buildMode = false;
         }
     }
 
@@ -62,6 +85,7 @@ public class NodeScript : MonoBehaviour
         rd = GetComponent<Renderer>();
         startColor = rd.material.color;
         btn.onClick.AddListener(toggleBuildMode);
+        demo.onClick.AddListener(toggleDemoMode);
     }
 
     // Update is called once per frame

@@ -7,10 +7,12 @@ public class TowerScript : MonoBehaviour
 
     GameObject target;
     public GameObject arrow;
+    public float basedamage = 50f;
     public float damage = 50f;
     public float range = 3f;
     public float reload = 2f;
     Vector3 offset = new Vector3(0, 1, 0);
+    List<GameObject> auraList = new List<GameObject>();
 
 
 
@@ -18,12 +20,36 @@ public class TowerScript : MonoBehaviour
     void Start()
     {
         GetComponent<SphereCollider>().radius = range;
+        StartCoroutine(calculateAuras());
     }
 
     // Update is called once per frame
     void Update()
     {
 
+    }
+
+    IEnumerator calculateAuras()
+    {
+        damage = basedamage;
+        foreach (GameObject g in auraList)
+        {
+            damage += g.GetComponent<AuraTowerScript>().damageBoost;
+        }
+        yield return new WaitForSeconds(2);
+        StartCoroutine(calculateAuras());
+    }
+
+    public void addToAuraList(GameObject auratower)
+    {
+        if (auraList.Contains(auratower))
+        {
+            return;
+        }
+        else
+        {
+            auraList.Add(auratower);
+        }
     }
 
     IEnumerator checkIfDead(GameObject target)
@@ -39,6 +65,8 @@ public class TowerScript : MonoBehaviour
         }
 
     }
+
+
 
     void shoot(GameObject target)
     {

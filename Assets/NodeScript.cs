@@ -22,7 +22,7 @@ public class NodeScript : MonoBehaviour
 
     private void OnMouseEnter()
     {
-        if (buildMode && !unbuildable) { 
+        if (buildMode && !unbuildable ||demoMode && !unbuildable) { 
         rd.material.color = hoverColor;
         }
     }

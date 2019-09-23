@@ -105,4 +105,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 468cb5facb2cf724b8b3488db5c7cae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  btn: {fileID: 0}
   hoverColor: {r: 0.5453453, g: 0.73865956, b: 0.8962264, a: 0}
+  unbuildable: 0
+  buildMode: 0

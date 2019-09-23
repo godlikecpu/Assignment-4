@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - goldtext
   - endNode
+  - Tower
   layers:
   - Default
   - TransparentFX

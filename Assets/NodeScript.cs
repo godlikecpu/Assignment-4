@@ -13,7 +13,7 @@ public class NodeScript : MonoBehaviour
     private Color startColor;
     GameObject tower;
     public GameObject auraTower;
-    Vector3 offset = new Vector3(0, 1, 0);
+    Vector3 offset = new Vector3(0, 0.4f, 0);
     bool hasTower = false;
     public bool unbuildable = false;
     public bool buildMode = false;

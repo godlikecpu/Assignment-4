@@ -8,7 +8,7 @@ public class EnemySpawner : MonoBehaviour
     GameObject spawnNode;
     GameObject endNode;
     public GameObject enemy;
-    Vector3 offset = new Vector3(0, 0.5f, 0);
+    Vector3 offset = new Vector3(0, 0.4f, 0);
     // Start is called before the first frame update
     void Start()
     {

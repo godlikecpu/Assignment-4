@@ -16,7 +16,7 @@ public class AIScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        rend = GetComponent<Renderer>();
+        rend = GetComponentInChildren<Renderer>();
         origcol =  rend.material.color;
 
         player = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<PlayerScript>();

@@ -29,7 +29,7 @@ public class NodeScript : MonoBehaviour
 
     private void OnMouseExit()
     {
-        if (buildMode && !unbuildable)
+        if (buildMode && !unbuildable||demoMode && !unbuildable)
         {
             rd.material.color = startColor;
         }

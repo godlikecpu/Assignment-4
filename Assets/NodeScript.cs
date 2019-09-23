@@ -5,33 +5,36 @@ using UnityEngine.UI;
 
 public class NodeScript : MonoBehaviour
 {
-
+    public Button auraBtn;
     public Button btn;
     public Button demo;
     public Color hoverColor;
     private Renderer rd;
     private Color startColor;
     GameObject tower;
+    public GameObject auraTower;
     Vector3 offset = new Vector3(0, 1, 0);
     bool hasTower = false;
     public bool unbuildable = false;
     public bool buildMode = false;
     PlayerScript player;
-    public bool demoMode = false;
     private GameObject nodeTower;
+    private bool auraMode = false;
 
     private void OnMouseEnter()
     {
-        if (buildMode && !unbuildable ||demoMode && !unbuildable) { 
+        if ((buildMode && !unbuildable)||(auraMode && !unbuildable)) { 
         rd.material.color = hoverColor;
         }
     }
 
     private void OnMouseExit()
     {
-        if (buildMode && !unbuildable||demoMode && !unbuildable)
+        if ((buildMode && !unbuildable) ||(auraMode && !unbuildable))
         {
             rd.material.color = startColor;
+            demo.onClick.RemoveListener(demolishTower);
+            demo.gameObject.SetActive(false);
         }
     }
 
@@ -43,11 +46,17 @@ public class NodeScript : MonoBehaviour
             hasTower = true;
             player.addToGold(-10);
         }
-        if (demoMode && hasTower)
+        if (auraMode && !hasTower && !unbuildable && player.gold >= 10)
         {
-            Destroy(nodeTower);
-            hasTower = false;
-            player.addToGold(5);
+            nodeTower = Instantiate(auraTower, transform.position + offset, transform.rotation);
+            hasTower = true;
+            player.addToGold(-10);
+        }
+        if(hasTower && !(buildMode||auraMode))
+        {
+            rd.material.color = hoverColor;
+            demo.gameObject.SetActive(true);
+            demo.onClick.AddListener(demolishTower);
         }
     }
 
@@ -59,22 +68,31 @@ public class NodeScript : MonoBehaviour
         }
         else
         {
-            demoMode = false;
             buildMode = true;
+            auraMode = false;
         }
     }
-
-    void toggleDemoMode()
+    void toggleAuraMode()
     {
-        if(demoMode)
+        if (auraMode)
         {
-            demoMode = false;
+            auraMode = false;
         }
         else
         {
-            demoMode = true;
+            auraMode = true;
             buildMode = false;
         }
+    }
+
+    void demolishTower()
+    {
+        Destroy(nodeTower);
+        hasTower = false;
+        player.addToGold(5);
+        rd.material.color = startColor;
+        demo.gameObject.SetActive(false);
+        demo.onClick.RemoveListener(demolishTower);
     }
 
     // Start is called before the first frame update
@@ -85,7 +103,8 @@ public class NodeScript : MonoBehaviour
         rd = GetComponent<Renderer>();
         startColor = rd.material.color;
         btn.onClick.AddListener(toggleBuildMode);
-        demo.onClick.AddListener(toggleDemoMode);
+        demo.gameObject.SetActive(false);
+        auraBtn.onClick.AddListener(toggleAuraMode);
     }
 
     // Update is called once per frame

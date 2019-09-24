@@ -119,7 +119,7 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 23800000, guid: 0cb7ccd896cb2ac4c9f771ed5d415bbc, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 6436c5000a575164ca54ab1d8405edaa, type: 2}
 --- !u!1001 &12596856
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5252,6 +5252,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 069e9ea210cc05f49ac3533f40c73574, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemies:
+  - {fileID: 106736, guid: 46398a79a336cba4c9c8998b2bff56c2, type: 3}
+  - {fileID: 137848, guid: b274f055acd44484e979267107f9a3c4, type: 3}
+  - {fileID: 175374, guid: 8280ad2f586477b47ac0d3d3e444e3aa, type: 3}
+  - {fileID: 166016, guid: f657c58adb4c219419ae056411d88e27, type: 3}
   boss: {fileID: 7292767724041219272, guid: 68a5f037540592246b2b7b3f140957f8, type: 3}
   enemy: {fileID: 106736, guid: 46398a79a336cba4c9c8998b2bff56c2, type: 3}
   timeBetweenWaves: 5
@@ -5266,7 +5271,7 @@ Transform:
   m_GameObject: {fileID: 1334580509}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 0.01, z: 1}
+  m_LocalScale: {x: 1, y: 0.1, z: 1}
   m_Children:
   - {fileID: 1934697868}
   - {fileID: 1904664940}

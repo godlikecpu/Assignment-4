@@ -16,6 +16,7 @@ public class ArrowScript : MonoBehaviour
     void Start()
     {
         StartCoroutine(cleanArrow());
+
     }
 
     IEnumerator cleanArrow()
@@ -32,20 +33,25 @@ public class ArrowScript : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "Boss" && dangerous)
+        AIScript enemy = collision.gameObject.GetComponent<AIScript>();
+
+        if ((collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "Boss") && dangerous)
         {
-            collision.gameObject.GetComponent<AIScript>().healthBar.fillAmount = collision.gameObject.GetComponent<AIScript>().hp / collision.gameObject.GetComponent<AIScript>().orighp;
-            collision.gameObject.GetComponent<AIScript>().hp -= damage;
-            if (collision.gameObject.GetComponent<AIScript>().hp <= 0)
+            if (enemy.isBoss)
             {
-                float goldReward = collision.gameObject.GetComponent<AIScript>().goldReward;
+                enemy.healthBar.fillAmount = enemy.hp / enemy.orighp;
+            }
+            enemy.hp -= damage;
+            if (enemy.hp <= 0)
+            {
+                float goldReward = enemy.goldReward;
                 GameObject.FindGameObjectWithTag("MainCamera").GetComponent<PlayerScript>().addToGold(goldReward);
                 Instantiate(expl, collision.gameObject.transform.position, Quaternion.identity);
                 Destroy(collision.gameObject);
             }
             else
             {
-                collision.gameObject.GetComponent<AIScript>().changeColorOnHit();
+                enemy.changeColorOnHit();
             }
         }
 

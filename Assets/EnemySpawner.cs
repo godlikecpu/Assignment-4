@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class EnemySpawner : MonoBehaviour
 {
+    public GameObject[] enemies;
     public GameObject boss;
     GameObject spawnNode;
     GameObject endNode;
@@ -20,6 +21,8 @@ public class EnemySpawner : MonoBehaviour
     public Text waveCountdownText;
     private int waveIndex = 0;
     public int level = 0;
+    float enemyHP = 50;
+    float bossHP = 2000;
 
 
     // Start is called before the first frame update
@@ -49,6 +52,8 @@ public class EnemySpawner : MonoBehaviour
     {
         if (countDown <= 0f)
         {
+            int rnd = Random.Range(0, enemies.Length);
+            enemy = enemies[rnd];
             StartCoroutine(SpawnWave());
             countDown = timeBetweenWaves;
             level++;
@@ -67,25 +72,33 @@ public class EnemySpawner : MonoBehaviour
         waveIndex++;
         if (waveIndex == 5)
         {
+            int rnd = Random.Range(0, enemies.Length);
+            boss = enemies[rnd];
             waveIndex = -1;
-            SpawnEnemy(boss, 2000);
+            boss.transform.localScale *= 5;
+            SpawnEnemy(boss, bossHP, true);
+            boss.transform.localScale /= 5;
+            bossHP += 1000;
         }
 
         for (int i = 0; i < waveIndex; i++)
         {
-            SpawnEnemy(enemy, 50);
+            SpawnEnemy(enemy, enemyHP, false);
             yield return new WaitForSeconds(0.5f);
         }
+
+        enemyHP *= 1.03f;
 
 
     }
 
-    void SpawnEnemy(GameObject spawn, int hp)
+    void SpawnEnemy(GameObject spawn, float hp, bool boss)
     {
         lastEnemy = Instantiate(spawn, spawnNode.transform.position + offset, spawnNode.transform.rotation);
         lastEnemy.GetComponent<NavMeshAgent>().SetDestination(endNode.transform.position);
         StartCoroutine(checkPath());
-        lastEnemy.GetComponent<AIScript>().setHp(hp + level * 10);
+        lastEnemy.GetComponent<AIScript>().setHp((int) hp);
+        lastEnemy.GetComponent<AIScript>().isBoss = boss;
     }
 
     IEnumerator checkPath()

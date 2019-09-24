@@ -26,8 +26,9 @@ public class NodeScript : MonoBehaviour
 
     private void OnMouseEnter()
     {
-        if (!unbuildable) { 
-        rd.material.color = hoverColor;
+        if (!unbuildable)
+        {
+            rd.material.color = hoverColor;
         }
     }
 
@@ -39,32 +40,26 @@ public class NodeScript : MonoBehaviour
         }
     }
 
+
     private void OnMouseDown()
     {
         if (buildMode && !hasTower && !unbuildable && player.gold >= 10)
         {
             nodeTower = Instantiate(tower, transform.position + offset, transform.rotation);
-            if(!es.checkPath())
-            {
-                Destroy(nodeTower);
-            }else {
-                hasTower = true;
+            hasTower = true;
             player.addToGold(-10);
-            }
+
         }
+
         if (auraMode && !hasTower && !unbuildable && player.gold >= 10)
         {
             nodeTower = Instantiate(auraTower, transform.position + offset, transform.rotation);
-            if(!es.checkPath())
-            {
-                Destroy(nodeTower);
-            }else {
-                hasTower = true;
+            hasTower = true;
             player.addToGold(-10);
-            }
+
         }
-     
-        if(hasTower && !(buildMode||auraMode) && !isSelected && !unbuildable)
+
+        if (hasTower && !(buildMode || auraMode) && !isSelected && !unbuildable)
         {
             rd.material.color = hoverColor;
             demo.gameObject.SetActive(true);
@@ -73,7 +68,7 @@ public class NodeScript : MonoBehaviour
             upgradeBtn.onClick.AddListener(upgradeTower);
             isSelected = true;
         }
-        else if(isSelected)
+        else if (isSelected)
         {
             isSelected = false;
             demo.onClick.RemoveListener(demolishTower);
@@ -118,18 +113,24 @@ public class NodeScript : MonoBehaviour
         upgradeBtn.onClick.RemoveListener(upgradeTower);
     }
     void upgradeTower()
-    {print("Trying to upgrade");
-        try {
+    {
+        print("Trying to upgrade");
+        try
+        {
             TowerScript[] a = nodeTower.GetComponents<TowerScript>();
-            
+
         }
-        catch {
+        catch
+        {
             //NIL
             print("Not a Arrow Tower");
         }
-        try {
+        try
+        {
             AuraTowerScript[] a = nodeTower.GetComponents<AuraTowerScript>();
-        } catch {
+        }
+        catch
+        {
             //NIL
             print("Not an Aura Tower");
         }
@@ -146,12 +147,12 @@ public class NodeScript : MonoBehaviour
         demo.gameObject.SetActive(false);
         upgradeBtn.gameObject.SetActive(false);
         auraBtn.onClick.AddListener(toggleAuraMode);
-        es = GameObject.FindGameObjectWithTag("EnemySpawner").GetComponent<EnemySpawner>();
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }

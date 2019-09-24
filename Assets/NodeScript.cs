@@ -151,7 +151,7 @@ public class NodeScript : MonoBehaviour
                     }
                 }
                 catch{
-                    print("Error ocurred in upgrade cost calc");
+                    //Non error
                 }
                 try {
                     if(!x.GetComponent<NodeScript>().nodeTower.GetComponent<AuraTowerScript>().isUpgraded)
@@ -160,7 +160,7 @@ public class NodeScript : MonoBehaviour
                     }
                 }
                 catch{
-                    print("Error ocurred in upgrade cost calc");
+                    //Non error
                 }
             }
         }

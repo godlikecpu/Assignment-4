@@ -692,6 +692,9 @@ MonoBehaviour:
   hp: 100
   orighp: 0
   goldReward: 10
+  isBoss: 0
+  healthBar: {fileID: 4015314027289992904, guid: fc4927e3b7f3f384780046226cedf4ad,
+    type: 3}
 --- !u!195 &-4215735242885476907
 NavMeshAgent:
   m_ObjectHideFlags: 0

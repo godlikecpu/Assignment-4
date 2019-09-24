@@ -14,6 +14,7 @@ public class AIScript : MonoBehaviour
     public float goldReward = 10f;
     PlayerScript player;
     public bool isBoss = false;
+    public Image healthBar;
 
     // Start is called before the first frame update
     void Start()
@@ -35,7 +36,7 @@ public class AIScript : MonoBehaviour
     {
         if (other.tag == "endNode")
         {
-            player.takeDamage();
+            player.TakeDamage(0.1f);
         }
     }
 

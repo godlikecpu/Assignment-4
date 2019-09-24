@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class EnemySpawner : MonoBehaviour
 {
+    public GameObject boss;
     GameObject spawnNode;
     GameObject endNode;
     public GameObject enemy;
@@ -54,7 +55,6 @@ public class EnemySpawner : MonoBehaviour
         }
 
         countDown -= Time.deltaTime;
-
         waveCountdownText.text = "Next wave spawns in:" + " " + Mathf.Floor(countDown).ToString();
     }
 
@@ -65,21 +65,27 @@ public class EnemySpawner : MonoBehaviour
     {
         Debug.Log("Wave incomming!");
         waveIndex++;
+        if (waveIndex == 5)
+        {
+            waveIndex = -1;
+            SpawnEnemy(boss, 2000);
+        }
 
         for (int i = 0; i < waveIndex; i++)
         {
-            SpawnEnemy();
+            SpawnEnemy(enemy, 50);
             yield return new WaitForSeconds(0.5f);
         }
 
 
     }
 
-    void SpawnEnemy()
+    void SpawnEnemy(GameObject spawn, int hp)
     {
-        lastEnemy = Instantiate(enemy, spawnNode.transform.position + offset, spawnNode.transform.rotation);
+        lastEnemy = Instantiate(spawn, spawnNode.transform.position + offset, spawnNode.transform.rotation);
         lastEnemy.GetComponent<NavMeshAgent>().SetDestination(endNode.transform.position);
         StartCoroutine(checkPath());
+        lastEnemy.GetComponent<AIScript>().setHp(hp + level * 10);
     }
 
     IEnumerator checkPath()

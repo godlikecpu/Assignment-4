@@ -27,6 +27,7 @@ public class AuraTowerScript : MonoBehaviour
         if(!isUpgraded)
         {
             print("upgrading this sumbitch!");
+            damageBoost += 5;
             isUpgraded = true;
             return true;
         }

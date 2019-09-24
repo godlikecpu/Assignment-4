@@ -45,6 +45,7 @@ public class TowerScript : MonoBehaviour
         if(!isUpgraded)
         {
             print("upgrading this sumbitch!");
+            basedamage += 10;
             isUpgraded = true;
             return true;
         }

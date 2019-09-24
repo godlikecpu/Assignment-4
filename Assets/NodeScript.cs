@@ -121,12 +121,12 @@ public class NodeScript : MonoBehaviour
         AuraTowerScript[] auraList = nodeTower.GetComponents<AuraTowerScript>();
         if(arrowList.GetLength(0) > 0)
         {
-            if(arrowList[0].upgrade() && player.gold >= 10*upgradeCost())
+            if( player.gold >= 10*upgradeCost() && arrowList[0].upgrade())
             {
                 player.addToGold(-10);
             }
         }
-        if(auraList.GetLength(0) > 0 && player.gold >= 10*upgradeCost())
+        if(player.gold >= 10*upgradeCost() && auraList.GetLength(0) > 0)
         {
              if(auraList[0].upgrade())
             {

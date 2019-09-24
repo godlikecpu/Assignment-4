@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class NodeScript : MonoBehaviour
 {
+    public Button upgradeBtn;
     public Button auraBtn;
     public Button btn;
     public Button demo;
@@ -20,21 +21,21 @@ public class NodeScript : MonoBehaviour
     PlayerScript player;
     private GameObject nodeTower;
     private bool auraMode = false;
+    private bool isSelected = false;
+    EnemySpawner es;
 
     private void OnMouseEnter()
     {
-        if ((buildMode && !unbuildable)||(auraMode && !unbuildable)) { 
+        if (!unbuildable) { 
         rd.material.color = hoverColor;
         }
     }
 
     private void OnMouseExit()
     {
-        if ((buildMode && !unbuildable) ||(auraMode && !unbuildable))
+        if (!unbuildable && !isSelected)
         {
             rd.material.color = startColor;
-            demo.onClick.RemoveListener(demolishTower);
-            demo.gameObject.SetActive(false);
         }
     }
 
@@ -43,20 +44,40 @@ public class NodeScript : MonoBehaviour
         if (buildMode && !hasTower && !unbuildable && player.gold >= 10)
         {
             nodeTower = Instantiate(tower, transform.position + offset, transform.rotation);
-            hasTower = true;
+            if(!es.checkPath())
+            {
+                Destroy(nodeTower);
+            }else {
+                hasTower = true;
             player.addToGold(-10);
+            }
         }
         if (auraMode && !hasTower && !unbuildable && player.gold >= 10)
         {
             nodeTower = Instantiate(auraTower, transform.position + offset, transform.rotation);
-            hasTower = true;
+            if(!es.checkPath())
+            {
+                Destroy(nodeTower);
+            }else {
+                hasTower = true;
             player.addToGold(-10);
+            }
         }
-        if(hasTower && !(buildMode||auraMode))
+     
+        if(hasTower && !(buildMode||auraMode) && !isSelected && !unbuildable)
         {
             rd.material.color = hoverColor;
             demo.gameObject.SetActive(true);
             demo.onClick.AddListener(demolishTower);
+            upgradeBtn.gameObject.SetActive(true);
+            upgradeBtn.onClick.AddListener(upgradeTower);
+            isSelected = true;
+        }
+        else if(isSelected)
+        {
+            isSelected = false;
+            demo.onClick.RemoveListener(demolishTower);
+            upgradeBtn.onClick.RemoveListener(upgradeTower);
         }
     }
 
@@ -93,6 +114,25 @@ public class NodeScript : MonoBehaviour
         rd.material.color = startColor;
         demo.gameObject.SetActive(false);
         demo.onClick.RemoveListener(demolishTower);
+        upgradeBtn.gameObject.SetActive(false);
+        upgradeBtn.onClick.RemoveListener(upgradeTower);
+    }
+    void upgradeTower()
+    {print("Trying to upgrade");
+        try {
+            TowerScript[] a = nodeTower.GetComponents<TowerScript>();
+            
+        }
+        catch {
+            //NIL
+            print("Not a Arrow Tower");
+        }
+        try {
+            AuraTowerScript[] a = nodeTower.GetComponents<AuraTowerScript>();
+        } catch {
+            //NIL
+            print("Not an Aura Tower");
+        }
     }
 
     // Start is called before the first frame update
@@ -104,7 +144,9 @@ public class NodeScript : MonoBehaviour
         startColor = rd.material.color;
         btn.onClick.AddListener(toggleBuildMode);
         demo.gameObject.SetActive(false);
+        upgradeBtn.gameObject.SetActive(false);
         auraBtn.onClick.AddListener(toggleAuraMode);
+        es = GameObject.FindGameObjectWithTag("EnemySpawner").GetComponent<EnemySpawner>();
     }
 
     // Update is called once per frame

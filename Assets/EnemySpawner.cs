@@ -16,6 +16,7 @@ public class EnemySpawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        path = new NavMeshPath();
         int rnd = Random.Range(0, 16);
         int rndend = Random.Range(48, 63);
         GameObject[] nodes = GameObject.FindGameObjectsWithTag("Nodes");

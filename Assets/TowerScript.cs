@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class TowerScript : MonoBehaviour
 {
-
     GameObject target;
     public GameObject arrow;
     public float basedamage = 50f;

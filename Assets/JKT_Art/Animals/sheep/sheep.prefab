@@ -690,6 +690,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isDead: 0
   hp: 100
+  orighp: 0
   goldReward: 10
 --- !u!195 &-4215735242885476907
 NavMeshAgent:

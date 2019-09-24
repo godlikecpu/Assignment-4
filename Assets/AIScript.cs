@@ -13,6 +13,7 @@ public class AIScript : MonoBehaviour
     Color origcol;
     public float goldReward = 10f;
     PlayerScript player;
+    public bool isBoss = false;
 
     // Start is called before the first frame update
     void Start()
@@ -21,15 +22,6 @@ public class AIScript : MonoBehaviour
         origcol = rend.material.color;
 
         player = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<PlayerScript>();
-        if(GameObject.FindGameObjectWithTag("Boss"))
-        {
-            hp = 500f;
-        }
-        else
-        {
-            hp = 100f;
-        }
-        orighp = hp;
     }
 
     // Update is called once per frame
@@ -45,6 +37,12 @@ public class AIScript : MonoBehaviour
         {
             player.takeDamage();
         }
+    }
+
+    public void setHp(int HP)
+    {
+        hp = HP;
+        orighp = HP;
     }
 
     public void changeColorOnHit()

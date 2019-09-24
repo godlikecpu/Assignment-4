@@ -14,7 +14,7 @@ public class PlayerScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        txt = GameObject.FindGameObjectWithTag("goldtext").GetComponentInChildren<Text>();
+        txt = GameObject.FindGameObjectWithTag("goldtext").GetComponent<Text>();
     }
 
     // Update is called once per frame

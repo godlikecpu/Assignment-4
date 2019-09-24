@@ -79,22 +79,20 @@ public class EnemySpawner : MonoBehaviour
     {
         lastEnemy = Instantiate(enemy, spawnNode.transform.position+ offset, spawnNode.transform.rotation);
         lastEnemy.GetComponent<NavMeshAgent>().SetDestination(endNode.transform.position);
-
+        StartCoroutine(checkPath());
     }
 
-    public bool checkPath()
+    IEnumerator checkPath()
     {
-        NavMesh.CalculatePath(spawnNode.transform.position, endNode.transform.position, NavMesh.AllAreas, path);
-        if(path.status == 0)
+        yield return new WaitForSeconds(0.5f);
+        if (lastEnemy.GetComponent<NavMeshAgent>().path.status != NavMeshPathStatus.PathComplete)
         {
-            return true;
+            GameObject towerToDestroy = GameObject.FindGameObjectWithTag("Tower");
+            towerToDestroy.GetComponent<TowerScript>().node.GetComponent<NodeScript>().hasTower = false;
+            Destroy(towerToDestroy);
         }
-        else
-        {
-            return false;
-        }
-
     }
+
 
     public GameObject getLastEnemy()
     {

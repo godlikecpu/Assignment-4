@@ -6,6 +6,7 @@ public class TowerScript : MonoBehaviour
 {
     GameObject target;
     public GameObject arrow;
+    public GameObject node;
     public float basedamage = 50f;
     public float damage = 50f;
     public float range = 3f;

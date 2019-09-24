@@ -36,7 +36,7 @@ public class ArrowScript : MonoBehaviour
         {
 
             collision.gameObject.GetComponent<AIScript>().hp -= damage;
-            healthBar.fillAmount = collision.gameObject.GetComponent<AIScript>().hp / collision.gameObject.GetComponent<AIScript>().orighp;
+           // healthBar.fillAmount = collision.gameObject.GetComponent<AIScript>().hp / collision.gameObject.GetComponent<AIScript>().orighp;
             if (collision.gameObject.GetComponent<AIScript>().hp <= 0)
             {
                 

@@ -15,13 +15,13 @@ public class NodeScript : MonoBehaviour
     GameObject tower;
     public GameObject auraTower;
     Vector3 offset = new Vector3(0, 0.4f, 0);
-    bool hasTower = false;
+    public bool hasTower = false;
     public bool unbuildable = false;
     public bool buildMode = false;
     PlayerScript player;
     private GameObject nodeTower;
     private bool auraMode = false;
-    private bool isSelected = false;
+    public bool isSelected = false;
     EnemySpawner es;
 
     private void OnMouseEnter()
@@ -114,26 +114,57 @@ public class NodeScript : MonoBehaviour
     }
     void upgradeTower()
     {
-        print("Trying to upgrade");
-        try
-        {
-            TowerScript[] a = nodeTower.GetComponents<TowerScript>();
 
-        }
-        catch
+        print("Trying to upgrade");
+        TowerScript[] arrowList = nodeTower.GetComponents<TowerScript>();
+        AuraTowerScript[] auraList = nodeTower.GetComponents<AuraTowerScript>();
+        if(arrowList.GetLength(0) > 0)
         {
-            //NIL
-            print("Not a Arrow Tower");
+            if(arrowList[0].upgrade() && player.gold >= 10*upgradeCost())
+            {
+                player.addToGold(-10);
+            }
         }
-        try
+        if(auraList.GetLength(0) > 0 && player.gold >= 10*upgradeCost())
         {
-            AuraTowerScript[] a = nodeTower.GetComponents<AuraTowerScript>();
+             if(auraList[0].upgrade())
+            {
+                player.addToGold(-10);
+            }
         }
-        catch
+            
+    }
+    
+    int upgradeCost()
+    {
+        GameObject[] a = GameObject.FindGameObjectsWithTag("Nodes");
+        int amount = 0;
+        foreach(GameObject x in a)
         {
-            //NIL
-            print("Not an Aura Tower");
+            if(x.GetComponent<NodeScript>().isSelected)
+            {
+                try {
+                    if(!x.GetComponent<NodeScript>().nodeTower.GetComponent<TowerScript>().isUpgraded)
+                    {
+                        amount++;
+                    }
+                }
+                catch{
+                    print("Error ocurred in upgrade cost calc");
+                }
+                try {
+                    if(!x.GetComponent<NodeScript>().nodeTower.GetComponent<AuraTowerScript>().isUpgraded)
+                    {
+                        amount++;
+                    }
+                }
+                catch{
+                    print("Error ocurred in upgrade cost calc");
+                }
+            }
         }
+        print(amount);
+        return amount;
     }
 
     // Start is called before the first frame update

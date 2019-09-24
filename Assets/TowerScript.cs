@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class TowerScript : MonoBehaviour
 {
+    public bool isUpgraded = false;
     GameObject target;
     public GameObject arrow;
     public GameObject node;
@@ -38,6 +39,20 @@ public class TowerScript : MonoBehaviour
         }
         yield return new WaitForSeconds(2);
         StartCoroutine(calculateAuras());
+    }
+         public bool upgrade()
+    {
+        if(!isUpgraded)
+        {
+            print("upgrading this sumbitch!");
+            isUpgraded = true;
+            return true;
+        }
+        else
+        {
+            print("already upgraded");
+            return false;
+        }
     }
 
     public void addToAuraList(GameObject auratower)

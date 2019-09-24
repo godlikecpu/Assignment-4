@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TowerScript : MonoBehaviour
 {
-    public int upgradeLvl = 0;
+    public int upgradeLvl = 1;
     GameObject target;
     public GameObject arrow;
     public GameObject node;
@@ -40,14 +40,11 @@ public class TowerScript : MonoBehaviour
         yield return new WaitForSeconds(2);
         StartCoroutine(calculateAuras());
     }
-         public int upgrade()
+    public void upgrade()
     {
-        
             print("upgrading this sumbitch!");
             basedamage += 10;
             upgradeLvl += 1;
-            return upgradeLvl;
-        
     }
 
     public void addToAuraList(GameObject auratower)

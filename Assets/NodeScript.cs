@@ -71,6 +71,7 @@ public class NodeScript : MonoBehaviour
         }
         else if (isSelected)
         {
+            rd.material.color = startColor;
             isSelected = false;
             demo.onClick.RemoveListener(demolishTower);
             upgradeBtn.onClick.RemoveListener(upgradeTower);
@@ -108,9 +109,7 @@ public class NodeScript : MonoBehaviour
         hasTower = false;
         player.addToGold(5);
         rd.material.color = startColor;
-        demo.gameObject.SetActive(false);
         demo.onClick.RemoveListener(demolishTower);
-        upgradeBtn.gameObject.SetActive(false);
         upgradeBtn.onClick.RemoveListener(upgradeTower);
     }
     void upgradeTower()
@@ -173,8 +172,6 @@ public class NodeScript : MonoBehaviour
         rd = GetComponent<Renderer>();
         startColor = rd.material.color;
         btn.onClick.AddListener(toggleBuildMode);
-        demo.gameObject.SetActive(false);
-        upgradeBtn.gameObject.SetActive(false);
         auraBtn.onClick.AddListener(toggleAuraMode);
         
     }

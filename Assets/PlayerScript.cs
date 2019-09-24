@@ -36,7 +36,7 @@ public class PlayerScript : MonoBehaviour
 
         if(barDisplay > 1)
         {
-            SceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene("GameOver");
         }
     }
 

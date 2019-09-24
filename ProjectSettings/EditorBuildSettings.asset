@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/CasperTest.unity
     guid: 4e118f4142c36934893f2162b68c8388
   - enabled: 1
-    path: Assets/Scenes/Esben.unity
-    guid: 8db0d6bfae8dd4945aeb284a3528c851
+    path: Assets/Scenes/GameOver.unity
+    guid: 1053252966a196d448e655fff8ab4ebd
   m_configObjects: {}

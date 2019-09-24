@@ -8,7 +8,6 @@ public class PlayerScript : MonoBehaviour
 
     public GameObject tower;
     public float gold = 50f;
-    public float enemyHp = 80f;
     Text txt;
 
 
@@ -28,7 +27,6 @@ public class PlayerScript : MonoBehaviour
 
         gold += goldReward;
         txt.text = "Gold: " + gold;
-        enemyHp*=1.03f;
         return gold;
     }
 

@@ -8,7 +8,11 @@ public class EnemySpawner : MonoBehaviour
     GameObject spawnNode;
     GameObject endNode;
     public GameObject enemy;
+    GameObject lastEnemy;
     Vector3 offset = new Vector3(0, 0.4f, 0);
+    NavMeshPath path;
+    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,7 +28,7 @@ public class EnemySpawner : MonoBehaviour
 
         GameObject endNodeCol = Instantiate(new GameObject(), endNode.transform);
         endNodeCol.tag = "endNode";
-        endNodeCol.layer =2;
+        endNodeCol.layer = 2;
         SphereCollider sc = endNodeCol.AddComponent(typeof(SphereCollider)) as SphereCollider;
         sc.isTrigger = true;
         sc.center = new Vector3(0, 1, 0);
@@ -34,7 +38,28 @@ public class EnemySpawner : MonoBehaviour
 
     void SpawnEnemy()
     {
-        Instantiate(enemy, spawnNode.transform.position+ offset, spawnNode.transform.rotation).GetComponent<NavMeshAgent>().SetDestination(endNode.transform.position);
+        lastEnemy = Instantiate(enemy, spawnNode.transform.position+ offset, spawnNode.transform.rotation);
+        lastEnemy.GetComponent<NavMeshAgent>().SetDestination(endNode.transform.position);
+
+    }
+
+    public bool checkPath()
+    {
+        NavMesh.CalculatePath(spawnNode.transform.position, endNode.transform.position, NavMesh.AllAreas, path);
+        if(path.status == 0)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+
+    }
+
+    public GameObject getLastEnemy()
+    {
+        return lastEnemy;
     }
     // Update is called once per frame
     void Update()

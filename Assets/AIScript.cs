@@ -17,23 +17,23 @@ public class AIScript : MonoBehaviour
     void Start()
     {
         rend = GetComponentInChildren<Renderer>();
-        origcol =  rend.material.color;
+        origcol = rend.material.color;
 
         player = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<PlayerScript>();
         hp = player.enemyHp;
         orighp = hp;
-        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
+
 
     private void OnTriggerStay(Collider other)
     {
-        if(other.tag == "endNode")
+        if (other.tag == "endNode")
         {
             player.takeDamage();
         }

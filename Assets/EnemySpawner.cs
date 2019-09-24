@@ -55,7 +55,7 @@ public class EnemySpawner : MonoBehaviour
 
         countDown -= Time.deltaTime;
 
-        waveCountdownText.text = Mathf.Floor(countDown).ToString();
+        waveCountdownText.text = "Next wave spawns in:" + " " + Mathf.Floor(countDown).ToString();
     }
 
 
@@ -100,6 +100,5 @@ public class EnemySpawner : MonoBehaviour
     {
         return lastEnemy;
     }
-    // Update is called once per frame
 
 }

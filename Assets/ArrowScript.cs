@@ -10,6 +10,7 @@ public class ArrowScript : MonoBehaviour
     public ParticleSystem expl;
     Text txt;
     public float damage;
+    public Image healthBar;
 
     // Start is called before the first frame update
     void Start()
@@ -31,10 +32,11 @@ public class ArrowScript : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "Enemy" && dangerous)
+        if (collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "Boss" && dangerous)
         {
 
             collision.gameObject.GetComponent<AIScript>().hp -= damage;
+            healthBar.fillAmount = collision.gameObject.GetComponent<AIScript>().hp / collision.gameObject.GetComponent<AIScript>().orighp;
             if (collision.gameObject.GetComponent<AIScript>().hp <= 0)
             {
                 

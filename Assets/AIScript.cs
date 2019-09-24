@@ -1,13 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class AIScript : MonoBehaviour
 {
 
     public bool isDead = false;
     public float hp;
-    float orighp;
+    public float orighp;
     Renderer rend;
     Color origcol;
     public float goldReward = 10f;
@@ -20,7 +21,14 @@ public class AIScript : MonoBehaviour
         origcol = rend.material.color;
 
         player = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<PlayerScript>();
-        hp = player.enemyHp;
+        if(GameObject.FindGameObjectWithTag("Boss"))
+        {
+            hp = 500f;
+        }
+        else
+        {
+            hp = 100f;
+        }
         orighp = hp;
     }
 

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657892, g: 0.4964133, b: 0.57481736, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657832, g: 0.49641216, b: 0.5748164, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -119,7 +119,7 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 23800000, guid: d4d7be4467c7e8747bcd8c512e1ebacc, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 0cb7ccd896cb2ac4c9f771ed5d415bbc, type: 2}
 --- !u!1001 &12596856
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -202,6 +202,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &17749003 stripped
@@ -292,6 +313,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &85974147
@@ -376,6 +418,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &104013939 stripped
@@ -466,6 +529,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &124154860 stripped
@@ -474,6 +558,83 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2074516725}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &143972166
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 143972167}
+  - component: {fileID: 143972169}
+  - component: {fileID: 143972168}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &143972167
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 143972166}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 419774485}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &143972168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 143972166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Aura Tower
+--- !u!222 &143972169
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 143972166}
+  m_CullTransparentMesh: 0
 --- !u!4 &144872379 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 753983299375163178, guid: aa3c5497cff0a564487a7ad716e637c5,
@@ -562,8 +723,147 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
+--- !u!1 &178152658
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 178152659}
+  - component: {fileID: 178152662}
+  - component: {fileID: 178152661}
+  - component: {fileID: 178152660}
+  m_Layer: 5
+  m_Name: Demo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &178152659
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 178152658}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.39608, y: 2.297219, z: 1}
+  m_Children:
+  - {fileID: 815772153}
+  m_Father: {fileID: 846548703}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 234, y: 178}
+  m_SizeDelta: {x: 160, y: 21}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &178152660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 178152658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 178152661}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &178152661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 178152658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &178152662
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 178152658}
+  m_CullTransparentMesh: 0
 --- !u!4 &183445406 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 753983299375163178, guid: aa3c5497cff0a564487a7ad716e637c5,
@@ -652,6 +952,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &231460646
@@ -736,6 +1057,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &231938691 stripped
@@ -768,8 +1110,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 253765653}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -134.92, y: -531.08, z: 0}
+  m_LocalScale: {x: 1.1874, y: 1.7545437, z: 1}
   m_Children:
   - {fileID: 846548703}
   m_Father: {fileID: 0}
@@ -863,6 +1205,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &303241460 stripped
@@ -953,6 +1316,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &330136842
@@ -1037,6 +1421,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &374255329 stripped
@@ -1133,6 +1538,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &396102859
@@ -1217,6 +1643,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &397165141 stripped
@@ -1307,8 +1754,147 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
+--- !u!1 &419774484
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 419774485}
+  - component: {fileID: 419774488}
+  - component: {fileID: 419774487}
+  - component: {fileID: 419774486}
+  m_Layer: 5
+  m_Name: AuraBtn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &419774485
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 419774484}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.4864, y: 2.7, z: 1}
+  m_Children:
+  - {fileID: 143972167}
+  m_Father: {fileID: 846548703}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 615, y: 97}
+  m_SizeDelta: {x: 200, y: 21}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &419774486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 419774484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 419774487}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &419774487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 419774484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &419774488
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 419774484}
+  m_CullTransparentMesh: 0
 --- !u!1001 &422874525
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1391,6 +1977,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &424079891
@@ -1475,6 +2082,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &447588079 stripped
@@ -1521,9 +2149,9 @@ RectTransform:
   m_Father: {fileID: 846548703}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 550, y: -230}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -139, y: -149}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &510143268
@@ -1648,6 +2276,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &526213800 stripped
@@ -1738,6 +2387,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &565508175
@@ -1822,6 +2492,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &582969073 stripped
@@ -1912,6 +2603,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &585840093
@@ -1996,6 +2708,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &601921888 stripped
@@ -2219,8 +2952,106 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
+--- !u!1 &815772152
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 815772153}
+  - component: {fileID: 815772155}
+  - component: {fileID: 815772154}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &815772153
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 815772152}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 178152659}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &815772154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 815772152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Demolish
+--- !u!222 &815772155
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 815772152}
+  m_CullTransparentMesh: 0
 --- !u!4 &815885457 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 753983299375163178, guid: aa3c5497cff0a564487a7ad716e637c5,
@@ -2309,6 +3140,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1 &846548699
@@ -2403,6 +3255,9 @@ RectTransform:
   m_Children:
   - {fileID: 510143267}
   - {fileID: 923037199}
+  - {fileID: 178152659}
+  - {fileID: 419774485}
+  - {fileID: 1593919569}
   m_Father: {fileID: 253765654}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2499,6 +3354,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &906672501
@@ -2583,6 +3459,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &915973886
@@ -2667,6 +3564,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1 &923037198
@@ -2697,16 +3615,16 @@ RectTransform:
   m_GameObject: {fileID: 923037198}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.3960801, y: 2.7808, z: 1}
   m_Children:
   - {fileID: 1149980575}
   m_Father: {fileID: 846548703}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -530, y: -230}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 276, y: 98}
+  m_SizeDelta: {x: 230, y: 21}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &923037200
 MonoBehaviour:
@@ -2853,7 +3771,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 4
+  orthographic size: 7
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2876,13 +3794,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.23911765, y: 0.3696438, z: -0.09904577, w: 0.89239913}
-  m_LocalPosition: {x: -9.67, y: 9.31, z: -9.67}
+  m_LocalRotation: {x: 0.5735764, y: 0, z: 0, w: 0.8191521}
+  m_LocalPosition: {x: 1.6, y: 12, z: -2.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 30, y: 45, z: 0}
+  m_LocalEulerAnglesHint: {x: 70, y: 0, z: 0}
 --- !u!114 &963194229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2897,6 +3815,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tower: {fileID: 2517671151601305442, guid: 08fb964091bda0243b7ec1f33c59806d, type: 3}
   gold: 50
+  enemyHp: 80
   barDisplay: 0
   emptyTex: {fileID: 0}
   fullTex: {fileID: 0}
@@ -2988,6 +3907,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &1061421720 stripped
@@ -3078,6 +4018,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &1098247628 stripped
@@ -3245,6 +4206,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &1161842853
@@ -3329,6 +4311,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &1168206168
@@ -3413,6 +4416,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &1185059886 stripped
@@ -3515,6 +4539,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &1239387606 stripped
@@ -3605,6 +4650,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &1248526183
@@ -3689,6 +4755,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &1300773407
@@ -3773,6 +4860,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &1304211590
@@ -3857,6 +4965,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &1328401829 stripped
@@ -3877,7 +5006,7 @@ GameObject:
   - component: {fileID: 1334580510}
   m_Layer: 0
   m_Name: Nodes
-  m_TagString: Untagged
+  m_TagString: EnemySpawner
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3894,9 +5023,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 069e9ea210cc05f49ac3533f40c73574, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: {fileID: 6718182576012336762, guid: d6837bb1abee6384c930c8d676388e89, type: 3}
-  timeBetweenWaves: 5
-  waveCountdownText: {fileID: 0}
+  enemy: {fileID: 106736, guid: 46398a79a336cba4c9c8998b2bff56c2, type: 3}
 --- !u!4 &1334580511
 Transform:
   m_ObjectHideFlags: 0
@@ -3906,7 +5033,7 @@ Transform:
   m_GameObject: {fileID: 1334580509}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 0.01, z: 1}
   m_Children:
   - {fileID: 1934697868}
   - {fileID: 1904664940}
@@ -4057,6 +5184,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &1360480396
@@ -4141,6 +5289,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &1363499805
@@ -4225,6 +5394,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &1428109404
@@ -4309,6 +5499,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &1458715284
@@ -4393,6 +5604,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &1458920277
@@ -4477,6 +5709,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &1461497814
@@ -4561,6 +5814,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &1467699241
@@ -4645,6 +5919,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &1479093857
@@ -4729,6 +6024,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &1490688566
@@ -4813,6 +6129,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &1504809065 stripped
@@ -4909,6 +6246,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &1520468329 stripped
@@ -5005,6 +6363,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &1560250484 stripped
@@ -5095,6 +6474,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &1579743185 stripped
@@ -5109,6 +6509,124 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1168206168}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1593919568
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1593919569}
+  - component: {fileID: 1593919572}
+  - component: {fileID: 1593919571}
+  - component: {fileID: 1593919570}
+  m_Layer: 5
+  m_Name: Upgrade
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1593919569
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1593919568}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.39608, y: 2.297219, z: 1}
+  m_Children:
+  - {fileID: 1817910773}
+  m_Father: {fileID: 846548703}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -67, y: -1102}
+  m_SizeDelta: {x: 160, y: 21}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1593919570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1593919568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1593919571}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1593919571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1593919568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1593919572
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1593919568}
+  m_CullTransparentMesh: 0
 --- !u!4 &1616165738 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 753983299375163178, guid: aa3c5497cff0a564487a7ad716e637c5,
@@ -5203,6 +6721,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &1638390999 stripped
@@ -5299,6 +6838,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &1699978956 stripped
@@ -5401,6 +6961,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &1742693968 stripped
@@ -5491,6 +7072,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &1781816186 stripped
@@ -5581,8 +7183,106 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
+--- !u!1 &1817910772
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1817910773}
+  - component: {fileID: 1817910775}
+  - component: {fileID: 1817910774}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1817910773
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1817910772}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1593919569}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1817910774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1817910772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Upgrade
+--- !u!222 &1817910775
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1817910772}
+  m_CullTransparentMesh: 0
 --- !u!4 &1820820571 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 753983299375163178, guid: aa3c5497cff0a564487a7ad716e637c5,
@@ -5677,6 +7377,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1 &1850559692
@@ -5845,6 +7566,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &1940293165 stripped
@@ -5959,6 +7701,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &2041769874 stripped
@@ -6049,6 +7812,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &2060083981 stripped
@@ -6139,6 +7923,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &2074516725
@@ -6223,6 +8028,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &2097095064
@@ -6307,6 +8133,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &2108806224 stripped
@@ -6397,6 +8244,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &2126542929
@@ -6481,6 +8349,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &2144310293
@@ -6565,6 +8454,27 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &753983298044445350
@@ -6649,74 +8559,26 @@ PrefabInstance:
       propertyPath: btn
       value: 
       objectReference: {fileID: 923037200}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: demo
+      value: 
+      objectReference: {fileID: 178152660}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraBtn
+      value: 
+      objectReference: {fileID: 419774486}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: auraTower
+      value: 
+      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
+        type: 3}
+    - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
+        type: 3}
+      propertyPath: upgradeBtn
+      value: 
+      objectReference: {fileID: 1593919570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
---- !u!1001 &9115683056334975257
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 9115683056002623606, guid: 15cac6b4691ea874a86f4615b0dfe75f,
-        type: 3}
-      propertyPath: m_Name
-      value: BossDuck
-      objectReference: {fileID: 0}
-    - target: {fileID: 9115683056002333846, guid: 15cac6b4691ea874a86f4615b0dfe75f,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 2.98
-      objectReference: {fileID: 0}
-    - target: {fileID: 9115683056002333846, guid: 15cac6b4691ea874a86f4615b0dfe75f,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.66
-      objectReference: {fileID: 0}
-    - target: {fileID: 9115683056002333846, guid: 15cac6b4691ea874a86f4615b0dfe75f,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 3.46
-      objectReference: {fileID: 0}
-    - target: {fileID: 9115683056002333846, guid: 15cac6b4691ea874a86f4615b0dfe75f,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9115683056002333846, guid: 15cac6b4691ea874a86f4615b0dfe75f,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 9115683056002333846, guid: 15cac6b4691ea874a86f4615b0dfe75f,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9115683056002333846, guid: 15cac6b4691ea874a86f4615b0dfe75f,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 9115683056002333846, guid: 15cac6b4691ea874a86f4615b0dfe75f,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 9115683056002333846, guid: 15cac6b4691ea874a86f4615b0dfe75f,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9115683056002333846, guid: 15cac6b4691ea874a86f4615b0dfe75f,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9115683056002333846, guid: 15cac6b4691ea874a86f4615b0dfe75f,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 15cac6b4691ea874a86f4615b0dfe75f, type: 3}

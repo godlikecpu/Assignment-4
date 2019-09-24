@@ -46,6 +46,7 @@ public class NodeScript : MonoBehaviour
         if (buildMode && !hasTower && !unbuildable && player.gold >= 10)
         {
             nodeTower = Instantiate(tower, transform.position + offset, transform.rotation);
+            nodeTower.GetComponent<TowerScript>().node = this.gameObject;
             hasTower = true;
             player.addToGold(-10);
 

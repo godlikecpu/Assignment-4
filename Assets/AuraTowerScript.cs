@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AuraTowerScript : MonoBehaviour
 {
-    public bool isUpgraded = false;
+    public int upgradeLvl = 1;
     public float range = 3f;
     public float damageBoost = 10f;
     
@@ -22,20 +22,11 @@ public class AuraTowerScript : MonoBehaviour
             other.gameObject.GetComponent<TowerScript>().addToAuraList(this.gameObject);
         }
     }
-     public bool upgrade()
+     public void upgrade()
     {
-        if(!isUpgraded)
-        {
             print("upgrading this sumbitch!");
             damageBoost += 5;
-            isUpgraded = true;
-            return true;
-        }
-        else
-        {
-            print("already upgraded");
-            return false;
-        }
+            upgradeLvl += 1;
     }
 
 

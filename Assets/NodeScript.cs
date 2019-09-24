@@ -121,15 +121,17 @@ public class NodeScript : MonoBehaviour
         AuraTowerScript[] auraList = nodeTower.GetComponents<AuraTowerScript>();
         if(arrowList.GetLength(0) > 0)
         {
-            if( player.gold >= 10*upgradeCost() && arrowList[0].upgrade())
+            if( player.gold >= 10*upgradeCost())
             {
+                arrowList[0].upgrade();
                 player.addToGold(-10);
             }
         }
-        if(player.gold >= 10*upgradeCost() && auraList.GetLength(0) > 0)
+        if(auraList.GetLength(0) > 0)
         {
-             if(auraList[0].upgrade())
+             if(player.gold >= 10*upgradeCost())
             {
+                auraList[0].upgrade();
                 player.addToGold(-10);
             }
         }
@@ -138,26 +140,21 @@ public class NodeScript : MonoBehaviour
     
     int upgradeCost()
     {
-        GameObject[] a = GameObject.FindGameObjectsWithTag("Nodes");
+        GameObject[] nodeList = GameObject.FindGameObjectsWithTag("Nodes");
         int amount = 0;
-        foreach(GameObject x in a)
+        foreach(GameObject node in nodeList)
         {
-            if(x.GetComponent<NodeScript>().isSelected)
+            if(node.GetComponent<NodeScript>().isSelected)
             {
                 try {
-                    if(!x.GetComponent<NodeScript>().nodeTower.GetComponent<TowerScript>().isUpgraded)
-                    {
-                        amount++;
-                    }
+                    amount += node.GetComponent<NodeScript>().nodeTower.GetComponent<TowerScript>().upgradeLvl;
+                        
                 }
                 catch{
                     //Non error
                 }
                 try {
-                    if(!x.GetComponent<NodeScript>().nodeTower.GetComponent<AuraTowerScript>().isUpgraded)
-                    {
-                        amount++;
-                    }
+                    amount += node.GetComponent<NodeScript>().nodeTower.GetComponent<AuraTowerScript>().upgradeLvl;
                 }
                 catch{
                     //Non error

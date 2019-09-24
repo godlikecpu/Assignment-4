@@ -123,16 +123,16 @@ public class NodeScript : MonoBehaviour
         {
             if( player.gold >= 10*upgradeCost())
             {
+                player.addToGold(-10*arrowList[0].upgradeLvl);
                 arrowList[0].upgrade();
-                player.addToGold(-10);
             }
         }
         if(auraList.GetLength(0) > 0)
         {
              if(player.gold >= 10*upgradeCost())
             {
+                player.addToGold(-10*auraList[0].upgradeLvl);
                 auraList[0].upgrade();
-                player.addToGold(-10);
             }
         }
             

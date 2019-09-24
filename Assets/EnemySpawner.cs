@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.UI;
 
 public class EnemySpawner : MonoBehaviour
 {
@@ -11,7 +12,14 @@ public class EnemySpawner : MonoBehaviour
     GameObject lastEnemy;
     Vector3 offset = new Vector3(0, 0.4f, 0);
     NavMeshPath path;
-    
+
+    [Header("Spawn Stuff")]
+    private float countDown = 2f;
+    public float timeBetweenWaves = 5f;
+    public Text waveCountdownText;
+    private int waveIndex = 0;
+    public int level = 0;
+
 
     // Start is called before the first frame update
     void Start()
@@ -23,8 +31,8 @@ public class EnemySpawner : MonoBehaviour
         spawnNode = nodes[rnd];
         spawnNode.GetComponent<Renderer>().material.color = Color.grey;
         spawnNode.GetComponent<NodeScript>().unbuildable = true;
-        endNode= nodes[rndend];
-        endNode.GetComponent<Renderer>().material.color = new Color(0.75f,0.25f,0.25f);
+        endNode = nodes[rndend];
+        endNode.GetComponent<Renderer>().material.color = new Color(0.75f, 0.25f, 0.25f);
         endNode.GetComponent<NodeScript>().unbuildable = true;
 
         GameObject endNodeCol = Instantiate(new GameObject(), endNode.transform);
@@ -33,40 +41,62 @@ public class EnemySpawner : MonoBehaviour
         SphereCollider sc = endNodeCol.AddComponent(typeof(SphereCollider)) as SphereCollider;
         sc.isTrigger = true;
         sc.center = new Vector3(0, 1, 0);
-        InvokeRepeating("SpawnEnemy", 0, 2);
+
     }
 
+    private void Update()
+    {
+        if (countDown <= 0f)
+        {
+            StartCoroutine(SpawnWave());
+            countDown = timeBetweenWaves;
+            level++;
+        }
+
+        countDown -= Time.deltaTime;
+
+        waveCountdownText.text = "Next wave spawns in:" + " " + Mathf.Floor(countDown).ToString();
+    }
+
+
+
+
+    IEnumerator SpawnWave()
+    {
+        Debug.Log("Wave incomming!");
+        waveIndex++;
+
+        for (int i = 0; i < waveIndex; i++)
+        {
+            SpawnEnemy();
+            yield return new WaitForSeconds(0.5f);
+        }
+
+
+    }
 
     void SpawnEnemy()
     {
         lastEnemy = Instantiate(enemy, spawnNode.transform.position+ offset, spawnNode.transform.rotation);
         lastEnemy.GetComponent<NavMeshAgent>().SetDestination(endNode.transform.position);
-
+        StartCoroutine(checkPath());
     }
 
-    public bool checkPath()
+    IEnumerator checkPath()
     {
-        NavMesh.CalculatePath(spawnNode.transform.position, endNode.transform.position, NavMesh.AllAreas, path);
-        Debug.Log("Checked path");
-        if (path.status == NavMeshPathStatus.PathComplete)
+        yield return new WaitForSeconds(0.5f);
+        if (lastEnemy.GetComponent<NavMeshAgent>().path.status != NavMeshPathStatus.PathComplete)
         {
-            return true;
+            GameObject towerToDestroy = GameObject.FindGameObjectWithTag("Tower");
+            towerToDestroy.GetComponent<TowerScript>().node.GetComponent<NodeScript>().hasTower = false;
+            Destroy(towerToDestroy);
         }
-        else
-        {
-            return false;
-        }
-
     }
+
 
     public GameObject getLastEnemy()
     {
         return lastEnemy;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

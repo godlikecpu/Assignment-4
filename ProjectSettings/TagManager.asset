@@ -10,6 +10,7 @@ TagManager:
   - endNode
   - Tower
   - EnemySpawner
+  - Boss
   layers:
   - Default
   - TransparentFX

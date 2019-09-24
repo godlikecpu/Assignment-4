@@ -121,6 +121,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   arrow: {fileID: 3252770519268443666, guid: 731fb424d54b3da4d8f65d075789950f, type: 3}
+  basedamage: 50
   damage: 50
   range: 3
   reload: 2
@@ -133,7 +134,7 @@ NavMeshObstacle:
   m_GameObject: {fileID: 2517671151601305442}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 0
+  m_Shape: 1
   m_Extents: {x: 0.5, y: 0.5, z: 0.5}
   m_MoveThreshold: 0.1
   m_Carve: 1

@@ -83,7 +83,8 @@ public class EnemySpawner : MonoBehaviour
     public bool checkPath()
     {
         NavMesh.CalculatePath(spawnNode.transform.position, endNode.transform.position, NavMesh.AllAreas, path);
-        if(path.status == 0)
+        Debug.Log("Checked path");
+        if (path.status == NavMeshPathStatus.PathComplete)
         {
             return true;
         }
@@ -98,6 +99,7 @@ public class EnemySpawner : MonoBehaviour
     {
         return lastEnemy;
     }
+
     // Update is called once per frame
 
 }

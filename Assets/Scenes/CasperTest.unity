@@ -2151,8 +2151,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -202.2, y: -149}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -289.6, y: -141}
+  m_SizeDelta: {x: 157.02, y: 30.38}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &510143268
 MonoBehaviour:
@@ -5178,6 +5178,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 069e9ea210cc05f49ac3533f40c73574, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  boss: {fileID: 7292767724041219272, guid: 68a5f037540592246b2b7b3f140957f8, type: 3}
   enemy: {fileID: 106736, guid: 46398a79a336cba4c9c8998b2bff56c2, type: 3}
   timeBetweenWaves: 5
   waveCountdownText: {fileID: 970986949}

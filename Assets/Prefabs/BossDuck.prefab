@@ -1588,7 +1588,7 @@ GameObject:
   - component: {fileID: 7292767724098977769}
   m_Layer: 0
   m_Name: BossDuck
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1641,7 +1641,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 1
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -1699,6 +1699,7 @@ MonoBehaviour:
   orighp: 0
   goldReward: 10
   isBoss: 0
+  healthBar: {fileID: 7292767723684002317}
 --- !u!1 &7292767725056387545
 GameObject:
   m_ObjectHideFlags: 0

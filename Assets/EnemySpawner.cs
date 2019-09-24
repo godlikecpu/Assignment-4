@@ -18,6 +18,7 @@ public class EnemySpawner : MonoBehaviour
     public float timeBetweenWaves = 5f;
     public Text waveCountdownText;
     private int waveIndex = 0;
+    public int level = 0;
 
 
     // Start is called before the first frame update
@@ -49,6 +50,7 @@ public class EnemySpawner : MonoBehaviour
         {
             StartCoroutine(SpawnWave());
             countDown = timeBetweenWaves;
+            level++;
         }
 
         countDown -= Time.deltaTime;
@@ -83,8 +85,7 @@ public class EnemySpawner : MonoBehaviour
     public bool checkPath()
     {
         NavMesh.CalculatePath(spawnNode.transform.position, endNode.transform.position, NavMesh.AllAreas, path);
-        Debug.Log("Checked path");
-        if (path.status == NavMeshPathStatus.PathComplete)
+        if(path.status == 0)
         {
             return true;
         }
@@ -99,7 +100,6 @@ public class EnemySpawner : MonoBehaviour
     {
         return lastEnemy;
     }
-
     // Update is called once per frame
 
 }

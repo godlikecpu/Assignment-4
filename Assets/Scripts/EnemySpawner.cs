@@ -19,6 +19,7 @@ public class EnemySpawner : MonoBehaviour
     private float countDown = 2f;
     public float timeBetweenWaves = 5f;
     public TextMeshProUGUI waveCountdownText;
+    public TextMeshProUGUI levelCount;
     private int waveIndex = 0;
     public int level = 0;
     float enemyHP = 50;
@@ -58,6 +59,7 @@ public class EnemySpawner : MonoBehaviour
 
         countDown -= Time.deltaTime;
         waveCountdownText.text = "Next wave spawns in:" + " " + Mathf.Floor(countDown).ToString();
+        levelCount.text = "Current level:" + " " + level;
     }
 
 

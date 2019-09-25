@@ -49,10 +49,6 @@ public class ArrowScript : MonoBehaviour
                 Instantiate(expl, collision.gameObject.transform.position, Quaternion.identity);
                 Destroy(collision.gameObject);
             }
-            else
-            {
-                enemy.changeColorOnHit();
-            }
         }
 
         if (collision.gameObject.tag == "Nodes")

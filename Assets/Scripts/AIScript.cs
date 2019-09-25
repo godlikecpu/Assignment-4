@@ -22,8 +22,6 @@ public class AIScript : MonoBehaviour
         if (!isBoss) { 
         GetComponentInChildren<Image>().gameObject.SetActive(false);
         }
-        rend = GetComponentInChildren<SkinnedMeshRenderer>();
-        origcol = rend.material.color;
 
         player = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<PlayerScript>();
     }
@@ -49,9 +47,4 @@ public class AIScript : MonoBehaviour
         orighp = HP;
     }
 
-    public void changeColorOnHit()
-    {
-        float redValue = hp / orighp;
-        rend.material.color = new Color(redValue, 0, 0);
-    }
 }

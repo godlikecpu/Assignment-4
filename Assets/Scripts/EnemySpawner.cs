@@ -9,11 +9,10 @@ public class EnemySpawner : MonoBehaviour
     public GameObject[] enemies;
     public GameObject boss;
     GameObject spawnNode;
-    GameObject endNode;
+    public GameObject endNode;
     public GameObject enemy;
     GameObject lastEnemy;
     Vector3 offset = new Vector3(0, 0.4f, 0);
-    NavMeshPath path;
 
     [Header("Spawn Stuff")]
     private float countDown = 2f;
@@ -28,14 +27,11 @@ public class EnemySpawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        path = new NavMeshPath();
-        int rnd = Random.Range(0, 16);
-        int rndend = Random.Range(48, 63);
-        GameObject[] nodes = GameObject.FindGameObjectsWithTag("Nodes");
-        spawnNode = nodes[rnd];
+        spawnNode = GameObject.FindGameObjectWithTag("startNode");
         spawnNode.GetComponent<Renderer>().material.color = Color.grey;
         spawnNode.GetComponent<NodeScript>().unbuildable = true;
-        endNode = nodes[rndend];
+
+
         endNode.GetComponent<Renderer>().material.color = new Color(0.75f, 0.25f, 0.25f);
         endNode.GetComponent<NodeScript>().unbuildable = true;
 

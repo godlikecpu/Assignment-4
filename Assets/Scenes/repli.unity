@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657815, g: 0.49641263, b: 0.5748163, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657832, g: 0.49641216, b: 0.5748164, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -201,17 +201,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -221,7 +221,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &17749003 stripped
@@ -230,6 +230,124 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 870511782}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &28842894
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 28842895}
+  - component: {fileID: 28842898}
+  - component: {fileID: 28842897}
+  - component: {fileID: 28842896}
+  m_Layer: 5
+  m_Name: ArrowTowerButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &28842895
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28842894}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.3960801, y: 2.7808, z: 1}
+  m_Children:
+  - {fileID: 400052134}
+  m_Father: {fileID: 72976645}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 248.80005, y: 112.69995}
+  m_SizeDelta: {x: 226.2, y: 81}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &28842896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28842894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 28842897}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &28842897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28842894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 931f85b672d6b494da6d70d46a590890, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &28842898
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28842894}
+  m_CullTransparentMesh: 0
 --- !u!4 &55553785 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 753983299375163178, guid: aa3c5497cff0a564487a7ad716e637c5,
@@ -317,17 +435,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -337,7 +455,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &67917707
@@ -421,17 +539,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -441,9 +559,116 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
+--- !u!1 &72976644
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 72976645}
+  - component: {fileID: 72976648}
+  - component: {fileID: 72976647}
+  - component: {fileID: 72976646}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &72976645
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 72976644}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 767582353}
+  - {fileID: 1252250212}
+  - {fileID: 1090186987}
+  - {fileID: 695388978}
+  - {fileID: 1291617177}
+  - {fileID: 28842895}
+  - {fileID: 340465948}
+  - {fileID: 1874310051}
+  - {fileID: 1462767657}
+  m_Father: {fileID: 411103297}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &72976646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 72976644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &72976647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 72976644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+--- !u!223 &72976648
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 72976644}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
 --- !u!4 &74491616 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 753983299375163178, guid: aa3c5497cff0a564487a7ad716e637c5,
@@ -531,17 +756,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -551,7 +776,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &85974147
@@ -635,17 +860,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -655,7 +880,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &89117245 stripped
@@ -751,17 +976,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -771,7 +996,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &124154860 stripped
@@ -780,163 +1005,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2074516725}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &143972166
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 143972167}
-  - component: {fileID: 143972169}
-  - component: {fileID: 143972168}
-  m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &143972167
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 143972166}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 419774485}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &143972168
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 143972166}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: Aura Tower
---- !u!222 &143972169
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 143972166}
-  m_CullTransparentMesh: 0
 --- !u!4 &144872379 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 753983299375163178, guid: aa3c5497cff0a564487a7ad716e637c5,
     type: 3}
   m_PrefabInstance: {fileID: 2126542929}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &146998908
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 146998909}
-  - component: {fileID: 146998911}
-  - component: {fileID: 146998910}
-  m_Layer: 5
-  m_Name: PlayerHealth
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &146998909
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 146998908}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -182.2}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1878450441}
-  m_Father: {fileID: 846548703}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 429.67, y: 1007}
-  m_SizeDelta: {x: 580.65, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &146998910
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 146998908}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &146998911
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 146998908}
-  m_CullTransparentMesh: 0
 --- !u!1001 &158884908
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1018,17 +1092,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -1038,127 +1112,9 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
---- !u!1 &178152658
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 178152659}
-  - component: {fileID: 178152662}
-  - component: {fileID: 178152661}
-  - component: {fileID: 178152660}
-  m_Layer: 5
-  m_Name: Demo
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &178152659
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 178152658}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.39608, y: 2.297219, z: 1}
-  m_Children:
-  - {fileID: 815772153}
-  m_Father: {fileID: 846548703}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 234, y: 178}
-  m_SizeDelta: {x: 160, y: 21}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &178152660
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 178152658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 178152661}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &178152661
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 178152658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &178152662
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 178152658}
-  m_CullTransparentMesh: 0
 --- !u!4 &183445406 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 753983299375163178, guid: aa3c5497cff0a564487a7ad716e637c5,
@@ -1246,17 +1202,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -1266,7 +1222,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &220644406
@@ -1350,17 +1306,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -1370,7 +1326,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &223998421
@@ -1454,17 +1410,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -1474,7 +1430,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &231460646
@@ -1558,17 +1514,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -1578,7 +1534,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &231938691 stripped
@@ -1593,37 +1549,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 907185422}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &253765653
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 253765654}
-  m_Layer: 0
-  m_Name: Empty
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &253765654
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 253765653}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -134.92, y: -531.08, z: 0}
-  m_LocalScale: {x: 1.1874, y: 1.7545437, z: 1}
-  m_Children:
-  - {fileID: 846548703}
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &268731133 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 753983299375163178, guid: aa3c5497cff0a564487a7ad716e637c5,
@@ -1711,17 +1636,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -1731,7 +1656,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &280047160 stripped
@@ -1833,17 +1758,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -1853,7 +1778,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &330136842
@@ -1937,17 +1862,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -1957,7 +1882,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &338691892 stripped
@@ -1966,6 +1891,124 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1864810083}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &340465947
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 340465948}
+  - component: {fileID: 340465951}
+  - component: {fileID: 340465950}
+  - component: {fileID: 340465949}
+  m_Layer: 5
+  m_Name: DemolishButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &340465948
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 340465947}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.39608, y: 3.48, z: 1}
+  m_Children:
+  - {fileID: 1954425927}
+  m_Father: {fileID: 72976645}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 1205, y: 112}
+  m_SizeDelta: {x: 227.5, y: 64.1}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &340465949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 340465947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 340465950}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &340465950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 340465947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 931f85b672d6b494da6d70d46a590890, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &340465951
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 340465947}
+  m_CullTransparentMesh: 0
 --- !u!1001 &363657422
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2047,17 +2090,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -2067,7 +2110,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &374255329 stripped
@@ -2163,17 +2206,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -2183,7 +2226,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &396102859
@@ -2267,17 +2310,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -2287,7 +2330,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &397165141 stripped
@@ -2296,6 +2339,114 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2050716673}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &400052133
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400052134}
+  - component: {fileID: 400052136}
+  - component: {fileID: 400052135}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &400052134
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 400052133}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 28842895}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &400052135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 400052133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 30
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 300
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Arrow Tower
+--- !u!222 &400052136
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 400052133}
+  m_CullTransparentMesh: 0
+--- !u!1 &411103296
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 411103297}
+  m_Layer: 0
+  m_Name: Empty
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &411103297
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 411103296}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -134.92, y: -531.08, z: 0}
+  m_LocalScale: {x: 1.1874, y: 1.7545437, z: 1}
+  m_Children:
+  - {fileID: 72976645}
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &414689947
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2377,17 +2528,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -2397,127 +2548,9 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
---- !u!1 &419774484
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 419774485}
-  - component: {fileID: 419774488}
-  - component: {fileID: 419774487}
-  - component: {fileID: 419774486}
-  m_Layer: 5
-  m_Name: AuraBtn
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &419774485
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 419774484}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.4864, y: 2.7, z: 1}
-  m_Children:
-  - {fileID: 143972167}
-  m_Father: {fileID: 846548703}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 615, y: 97}
-  m_SizeDelta: {x: 200, y: 21}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &419774486
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 419774484}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 419774487}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &419774487
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 419774484}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &419774488
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 419774484}
-  m_CullTransparentMesh: 0
 --- !u!4 &419810788 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 753983299375163178, guid: aa3c5497cff0a564487a7ad716e637c5,
@@ -2605,17 +2638,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -2625,7 +2658,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &424079891
@@ -2709,17 +2742,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -2729,7 +2762,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &431675590 stripped
@@ -2825,17 +2858,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -2845,7 +2878,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &457386790 stripped
@@ -2854,6 +2887,83 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1633317408}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &477525893
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 477525894}
+  - component: {fileID: 477525896}
+  - component: {fileID: 477525895}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &477525894
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477525893}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1874310051}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &477525895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477525893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 30
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 3
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Aura Tower
+--- !u!222 &477525896
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477525893}
+  m_CullTransparentMesh: 0
 --- !u!1001 &498320797
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2935,17 +3045,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -2955,7 +3065,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &500969194 stripped
@@ -2964,83 +3074,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 79669367}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &510143266
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 510143267}
-  - component: {fileID: 510143269}
-  - component: {fileID: 510143268}
-  m_Layer: 5
-  m_Name: Text
-  m_TagString: goldtext
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &510143267
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 510143266}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.6909745, y: 5.325866, z: 1}
-  m_Children: []
-  m_Father: {fileID: 846548703}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -289.6, y: -141}
-  m_SizeDelta: {x: 157.02, y: 30.38}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &510143268
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 510143266}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 25
-    m_FontStyle: 1
-    m_BestFit: 0
-    m_MinSize: 0
-    m_MaxSize: 201
-    m_Alignment: 0
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 'Gold: 50'
---- !u!222 &510143269
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 510143266}
-  m_CullTransparentMesh: 0
 --- !u!1001 &520072122
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3122,17 +3155,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -3142,7 +3175,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &526213800 stripped
@@ -3238,17 +3271,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -3258,7 +3291,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &531825649
@@ -3342,17 +3375,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -3362,7 +3395,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &565508175
@@ -3446,17 +3479,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -3466,9 +3499,86 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
+--- !u!1 &575414413
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 575414414}
+  - component: {fileID: 575414416}
+  - component: {fileID: 575414415}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &575414414
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575414413}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1462767657}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &575414415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575414413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 30
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 3
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Upgrade
+--- !u!222 &575414416
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575414413}
+  m_CullTransparentMesh: 0
 --- !u!1001 &577120355
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3550,17 +3660,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -3570,7 +3680,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &582969073 stripped
@@ -3660,17 +3770,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -3680,7 +3790,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &585840093
@@ -3764,17 +3874,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -3784,7 +3894,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &599541521 stripped
@@ -3835,6 +3945,80 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 56589861}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &695388977
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 695388978}
+  - component: {fileID: 695388980}
+  - component: {fileID: 695388979}
+  m_Layer: 5
+  m_Name: PlayerHealth
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &695388978
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695388977}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -182.2}
+  m_LocalScale: {x: 0.78, y: 0.6, z: 1}
+  m_Children:
+  - {fileID: 2061394552}
+  m_Father: {fileID: 72976645}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 507, y: 1219.3}
+  m_SizeDelta: {x: 520.6, y: 98.4}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &695388979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695388977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &695388980
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695388977}
+  m_CullTransparentMesh: 0
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -4013,17 +4197,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -4033,10 +4217,10 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
---- !u!1 &815772152
+--- !u!1 &767582352
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4044,74 +4228,152 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 815772153}
-  - component: {fileID: 815772155}
-  - component: {fileID: 815772154}
+  - component: {fileID: 767582353}
+  - component: {fileID: 767582355}
+  - component: {fileID: 767582354}
   m_Layer: 5
-  m_Name: Text
+  m_Name: LevelDisplay
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &815772153
+--- !u!224 &767582353
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 815772152}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_GameObject: {fileID: 767582352}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 178152659}
+  m_Father: {fileID: 72976645}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -391.75, y: 1092}
+  m_SizeDelta: {x: 656.5, y: 81.35}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &815772154
+--- !u!114 &767582354
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 815772152}
+  m_GameObject: {fileID: 767582352}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: Demolish
---- !u!222 &815772155
+  m_text: CurrentLevel
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 1
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 0.7830189, g: 0.7830189, b: 0.7830189, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 0.9056604, g: 0.9056604, b: 0.9056604, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_outlineColor:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontSize: 61.79
+  m_fontSizeBase: 61.79
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_textAlignment: 257
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_firstOverflowCharacterIndex: -1
+  m_linkedTextComponent: {fileID: 0}
+  m_isLinkedTextComponent: 0
+  m_isTextTruncated: 0
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_ignoreRectMaskCulling: 0
+  m_ignoreCulling: 1
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_VertexBufferAutoSizeReduction: 1
+  m_firstVisibleCharacter: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_textInfo:
+    textComponent: {fileID: 767582354}
+    characterCount: 12
+    spriteCount: 0
+    spaceCount: 0
+    wordCount: 1
+    linkCount: 0
+    lineCount: 1
+    pageCount: 1
+    materialCount: 1
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_spriteAnimator: {fileID: 0}
+  m_hasFontAssetChanged: 0
+  m_subTextObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &767582355
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 815772152}
+  m_GameObject: {fileID: 767582352}
   m_CullTransparentMesh: 0
 --- !u!4 &815885457 stripped
 Transform:
@@ -4200,17 +4462,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -4220,7 +4482,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &826380462
@@ -4304,17 +4566,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -4324,7 +4586,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &833956443
@@ -4408,17 +4670,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -4428,86 +4690,9 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
---- !u!1 &837269721
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 837269722}
-  - component: {fileID: 837269724}
-  - component: {fileID: 837269723}
-  m_Layer: 5
-  m_Name: CurrentLevel
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &837269722
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 837269721}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 846548703}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -362.5, y: 1198}
-  m_SizeDelta: {x: 715, y: 164.01}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &837269723
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 837269721}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: 4beb055f07aaff244873dec698d0363e, type: 3}
-    m_FontSize: 50
-    m_FontStyle: 1
-    m_BestFit: 0
-    m_MinSize: 1
-    m_MaxSize: 100
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 
---- !u!222 &837269724
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 837269721}
-  m_CullTransparentMesh: 0
 --- !u!1001 &839378368
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4589,17 +4774,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -4609,115 +4794,9 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
---- !u!1 &846548699
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 846548703}
-  - component: {fileID: 846548702}
-  - component: {fileID: 846548701}
-  - component: {fileID: 846548700}
-  m_Layer: 5
-  m_Name: Canvas
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &846548700
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 846548699}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
---- !u!114 &846548701
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 846548699}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
-  m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
-  m_PhysicalUnit: 3
-  m_FallbackScreenDPI: 96
-  m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 1
---- !u!223 &846548702
-Canvas:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 846548699}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
---- !u!224 &846548703
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 846548699}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_Children:
-  - {fileID: 146998909}
-  - {fileID: 970986948}
-  - {fileID: 837269722}
-  - {fileID: 510143267}
-  - {fileID: 923037199}
-  - {fileID: 178152659}
-  - {fileID: 419774485}
-  - {fileID: 1593919569}
-  m_Father: {fileID: 253765654}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
 --- !u!4 &867474960 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 753983299375163178, guid: aa3c5497cff0a564487a7ad716e637c5,
@@ -4805,17 +4884,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -4825,7 +4904,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &901631778 stripped
@@ -4915,17 +4994,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -4935,7 +5014,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &907185422
@@ -5019,17 +5098,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -5039,7 +5118,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &915973886
@@ -5123,17 +5202,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -5143,127 +5222,9 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
---- !u!1 &923037198
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 923037199}
-  - component: {fileID: 923037202}
-  - component: {fileID: 923037201}
-  - component: {fileID: 923037200}
-  m_Layer: 5
-  m_Name: Button
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &923037199
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 923037198}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3960801, y: 2.7808, z: 1}
-  m_Children:
-  - {fileID: 1149980575}
-  m_Father: {fileID: 846548703}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 276, y: 98}
-  m_SizeDelta: {x: 230, y: 21}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &923037200
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 923037198}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 923037201}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &923037201
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 923037198}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &923037202
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 923037198}
-  m_CullTransparentMesh: 0
 --- !u!4 &923786843 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 753983299375163178, guid: aa3c5497cff0a564487a7ad716e637c5,
@@ -5393,90 +5354,13 @@ MonoBehaviour:
   tower: {fileID: 2517671151601305442, guid: 08fb964091bda0243b7ec1f33c59806d, type: 3}
   gold: 50
   startHealth: 100
-  healthBar: {fileID: 1878450442}
+  healthBar: {fileID: 2061394553}
 --- !u!4 &966675441 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 753983299375163178, guid: aa3c5497cff0a564487a7ad716e637c5,
     type: 3}
   m_PrefabInstance: {fileID: 1360480396}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &970986947
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 970986948}
-  - component: {fileID: 970986950}
-  - component: {fileID: 970986949}
-  m_Layer: 5
-  m_Name: WaveCountDownTimer
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &970986948
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 970986947}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 846548703}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -362.5, y: 1198}
-  m_SizeDelta: {x: 715, y: 164.01}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &970986949
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 970986947}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: 4beb055f07aaff244873dec698d0363e, type: 3}
-    m_FontSize: 50
-    m_FontStyle: 1
-    m_BestFit: 0
-    m_MinSize: 1
-    m_MaxSize: 100
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 
---- !u!222 &970986950
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 970986947}
-  m_CullTransparentMesh: 0
 --- !u!4 &987233490 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 753983299375163178, guid: aa3c5497cff0a564487a7ad716e637c5,
@@ -5576,17 +5460,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -5596,7 +5480,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &1044920580
@@ -5680,17 +5564,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -5700,7 +5584,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &1061421720 stripped
@@ -5796,17 +5680,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -5816,9 +5700,165 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
+--- !u!1 &1090186986
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1090186987}
+  - component: {fileID: 1090186989}
+  - component: {fileID: 1090186988}
+  m_Layer: 5
+  m_Name: HealthText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1090186987
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1090186986}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 72976645}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 143.6, y: 1219.3}
+  m_SizeDelta: {x: 297.3, y: 121.4}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1090186988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1090186986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'Health:'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 1
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 11400000, guid: 4c86a3366cd840348ebe8dc438570ee4,
+    type: 2}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_outlineColor:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontSize: 91.8
+  m_fontSizeBase: 91.8
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_textAlignment: 514
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_firstOverflowCharacterIndex: -1
+  m_linkedTextComponent: {fileID: 0}
+  m_isLinkedTextComponent: 0
+  m_isTextTruncated: 0
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_ignoreRectMaskCulling: 0
+  m_ignoreCulling: 1
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_VertexBufferAutoSizeReduction: 1
+  m_firstVisibleCharacter: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0.000061035156, y: 0, z: 0, w: 0}
+  m_textInfo:
+    textComponent: {fileID: 1090186988}
+    characterCount: 7
+    spriteCount: 0
+    spaceCount: 0
+    wordCount: 1
+    linkCount: 0
+    lineCount: 1
+    pageCount: 1
+    materialCount: 1
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_spriteAnimator: {fileID: 0}
+  m_hasFontAssetChanged: 0
+  m_subTextObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1090186989
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1090186986}
+  m_CullTransparentMesh: 0
 --- !u!4 &1098247628 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 753983299375163178, guid: aa3c5497cff0a564487a7ad716e637c5,
@@ -5906,17 +5946,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -5926,7 +5966,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &1108175087
@@ -6010,17 +6050,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -6030,7 +6070,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &1109008894
@@ -6114,17 +6154,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -6134,7 +6174,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1 &1119482394 stripped
@@ -6149,83 +6189,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1577529142}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1149980574
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1149980575}
-  - component: {fileID: 1149980577}
-  - component: {fileID: 1149980576}
-  m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1149980575
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1149980574}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 923037199}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1149980576
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1149980574}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: Arrow Tower
---- !u!222 &1149980577
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1149980574}
-  m_CullTransparentMesh: 0
 --- !u!1001 &1155925881
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6307,17 +6270,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -6327,7 +6290,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &1161842853
@@ -6411,17 +6374,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -6431,7 +6394,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &1168206168
@@ -6515,17 +6478,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -6535,7 +6498,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &1168456072 stripped
@@ -6625,17 +6588,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -6645,7 +6608,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &1185059886 stripped
@@ -6747,17 +6710,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -6767,7 +6730,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &1220373299 stripped
@@ -6857,17 +6820,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -6877,7 +6840,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &1239387606 stripped
@@ -6967,17 +6930,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -6987,7 +6950,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &1248526183
@@ -7071,17 +7034,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -7091,9 +7054,165 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
+--- !u!1 &1252250209
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1252250212}
+  - component: {fileID: 1252250211}
+  - component: {fileID: 1252250210}
+  m_Layer: 5
+  m_Name: WaveCountDownTimer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1252250210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252250209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: WaveCountDOwnNEW
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 1
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 11400000, guid: 479a66fa4b094512a62b0a8e553ad95a,
+    type: 2}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_outlineColor:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontSize: 61.79
+  m_fontSizeBase: 61.79
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_textAlignment: 257
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_firstOverflowCharacterIndex: -1
+  m_linkedTextComponent: {fileID: 0}
+  m_isLinkedTextComponent: 0
+  m_isTextTruncated: 0
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_ignoreRectMaskCulling: 0
+  m_ignoreCulling: 1
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_VertexBufferAutoSizeReduction: 1
+  m_firstVisibleCharacter: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_textInfo:
+    textComponent: {fileID: 1252250210}
+    characterCount: 16
+    spriteCount: 0
+    spaceCount: 0
+    wordCount: 1
+    linkCount: 0
+    lineCount: 1
+    pageCount: 1
+    materialCount: 1
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_spriteAnimator: {fileID: 0}
+  m_hasFontAssetChanged: 0
+  m_subTextObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1252250211
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252250209}
+  m_CullTransparentMesh: 0
+--- !u!224 &1252250212
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252250209}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 72976645}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -390.07788, y: 1214.4403}
+  m_SizeDelta: {x: 651.2, y: 82.2}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1260878882
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7175,17 +7294,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -7195,9 +7314,165 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
+--- !u!1 &1291617176
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1291617177}
+  - component: {fileID: 1291617179}
+  - component: {fileID: 1291617178}
+  m_Layer: 5
+  m_Name: GoldDisplay
+  m_TagString: goldtext
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1291617177
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291617176}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3.6909745, y: 5.325866, z: 1}
+  m_Children: []
+  m_Father: {fileID: 72976645}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 202.8, y: 1099.7}
+  m_SizeDelta: {x: 111.2, y: 21.9}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1291617178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291617176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'Gold: 1000'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 1
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 0, b: 0, a: 1}
+    topRight: {r: 0, g: 0, b: 0, a: 1}
+    bottomLeft: {r: 0.7169812, g: 0, b: 0, a: 1}
+    bottomRight: {r: 0.990566, g: 0.5588133, b: 0, a: 1}
+  m_fontColorGradientPreset: {fileID: 11400000, guid: 69a525efa7e6472eab268f6ea605f06e,
+    type: 2}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_outlineColor:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontSize: 21.73
+  m_fontSizeBase: 21.73
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_textAlignment: 257
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_firstOverflowCharacterIndex: 0
+  m_linkedTextComponent: {fileID: 0}
+  m_isLinkedTextComponent: 0
+  m_isTextTruncated: 0
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_ignoreRectMaskCulling: 0
+  m_ignoreCulling: 1
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_VertexBufferAutoSizeReduction: 1
+  m_firstVisibleCharacter: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0.000010562865, y: 0, z: -0.00009943421, w: -0.000045791756}
+  m_textInfo:
+    textComponent: {fileID: 1291617178}
+    characterCount: 10
+    spriteCount: 0
+    spaceCount: 1
+    wordCount: 2
+    linkCount: 0
+    lineCount: 1
+    pageCount: 1
+    materialCount: 1
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_spriteAnimator: {fileID: 0}
+  m_hasFontAssetChanged: 0
+  m_subTextObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1291617179
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291617176}
+  m_CullTransparentMesh: 0
 --- !u!1001 &1300773407
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7279,17 +7554,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -7299,7 +7574,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &1304211590
@@ -7383,17 +7658,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -7403,7 +7678,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &1324130232
@@ -7487,17 +7762,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -7507,7 +7782,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &1328401829 stripped
@@ -7554,7 +7829,7 @@ MonoBehaviour:
   endNode: {fileID: 1119482394}
   enemy: {fileID: 106736, guid: 46398a79a336cba4c9c8998b2bff56c2, type: 3}
   timeBetweenWaves: 5
-  waveCountdownText: {fileID: 970986949}
+  waveCountdownText: {fileID: 1252250210}
   level: 0
 --- !u!4 &1334580511
 Transform:
@@ -7664,7 +7939,7 @@ Transform:
   - {fileID: 953163360}
   - {fileID: 500969194}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1341297704
 PrefabInstance:
@@ -7747,17 +8022,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -7767,7 +8042,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &1360480396
@@ -7851,17 +8126,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -7871,7 +8146,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &1363499805
@@ -7955,17 +8230,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -7975,7 +8250,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &1401346427 stripped
@@ -8065,17 +8340,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -8085,7 +8360,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &1458715284
@@ -8169,17 +8444,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -8189,7 +8464,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &1458920277
@@ -8273,17 +8548,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -8293,7 +8568,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &1461497814
@@ -8377,17 +8652,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -8397,9 +8672,127 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
+--- !u!1 &1462767656
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1462767657}
+  - component: {fileID: 1462767660}
+  - component: {fileID: 1462767659}
+  - component: {fileID: 1462767658}
+  m_Layer: 5
+  m_Name: UpgradeButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1462767657
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1462767656}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.39608, y: 2.297219, z: 1}
+  m_Children:
+  - {fileID: 575414414}
+  m_Father: {fileID: 72976645}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 166.80005, y: -1168}
+  m_SizeDelta: {x: 228.2, y: 97.3}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1462767658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1462767656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1462767659}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1462767659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1462767656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 931f85b672d6b494da6d70d46a590890, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1462767660
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1462767656}
+  m_CullTransparentMesh: 0
 --- !u!1001 &1467699241
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8481,17 +8874,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -8501,7 +8894,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &1479093857
@@ -8585,17 +8978,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -8605,7 +8998,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &1490688566
@@ -8689,17 +9082,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -8709,7 +9102,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &1504809065 stripped
@@ -8805,17 +9198,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -8825,7 +9218,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &1520468329 stripped
@@ -8921,17 +9314,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -8941,7 +9334,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &1552153108
@@ -9025,17 +9418,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -9045,7 +9438,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &1560250484 stripped
@@ -9135,17 +9528,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -9155,7 +9548,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &1577529142
@@ -9239,17 +9632,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -9259,7 +9652,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &1579743185 stripped
@@ -9280,124 +9673,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1180995979}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1593919568
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1593919569}
-  - component: {fileID: 1593919572}
-  - component: {fileID: 1593919571}
-  - component: {fileID: 1593919570}
-  m_Layer: 5
-  m_Name: Upgrade
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1593919569
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1593919568}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.39608, y: 2.297219, z: 1}
-  m_Children:
-  - {fileID: 1817910773}
-  m_Father: {fileID: 846548703}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -67, y: -1102}
-  m_SizeDelta: {x: 160, y: 21}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1593919570
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1593919568}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1593919571}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &1593919571
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1593919568}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1593919572
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1593919568}
-  m_CullTransparentMesh: 0
 --- !u!4 &1616165738 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 753983299375163178, guid: aa3c5497cff0a564487a7ad716e637c5,
@@ -9491,17 +9766,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -9511,7 +9786,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &1638390999 stripped
@@ -9607,17 +9882,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -9627,7 +9902,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &1694738540
@@ -9711,17 +9986,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -9731,7 +10006,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &1699978956 stripped
@@ -9839,17 +10114,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -9859,7 +10134,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &1742693968 stripped
@@ -9949,17 +10224,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -9969,7 +10244,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &1747473155 stripped
@@ -10065,17 +10340,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -10085,86 +10360,9 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
---- !u!1 &1817910772
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1817910773}
-  - component: {fileID: 1817910775}
-  - component: {fileID: 1817910774}
-  m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1817910773
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1817910772}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1593919569}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1817910774
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1817910772}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: Upgrade
---- !u!222 &1817910775
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1817910772}
-  m_CullTransparentMesh: 0
 --- !u!4 &1820820571 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 753983299375163178, guid: aa3c5497cff0a564487a7ad716e637c5,
@@ -10258,17 +10456,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -10278,7 +10476,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1 &1850559692
@@ -10345,7 +10543,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1854501259 stripped
 Transform:
@@ -10434,17 +10632,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -10454,7 +10652,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &1869731042 stripped
@@ -10544,17 +10742,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -10564,9 +10762,127 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
+--- !u!1 &1874310050
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1874310051}
+  - component: {fileID: 1874310054}
+  - component: {fileID: 1874310053}
+  - component: {fileID: 1874310052}
+  m_Layer: 5
+  m_Name: AuraButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1874310051
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1874310050}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.4864, y: 2.7, z: 1}
+  m_Children:
+  - {fileID: 477525894}
+  m_Father: {fileID: 72976645}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 566.80005, y: 112}
+  m_SizeDelta: {x: 214.6, y: 83.2}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1874310052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1874310050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1874310053}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1874310053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1874310050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 931f85b672d6b494da6d70d46a590890, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1874310054
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1874310050}
+  m_CullTransparentMesh: 0
 --- !u!1001 &1876395493
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10648,17 +10964,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -10668,82 +10984,9 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
---- !u!1 &1878450440
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1878450441}
-  - component: {fileID: 1878450443}
-  - component: {fileID: 1878450442}
-  m_Layer: 5
-  m_Name: HealthBar
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1878450441
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1878450440}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 146998909}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: 50.004}
-  m_SizeDelta: {x: 0, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1878450442
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1878450440}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 1, b: 0.0029821396, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6298cdcef7f65de4cab95da4bf75b338, type: 3}
-  m_Type: 3
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 0
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1878450443
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1878450440}
-  m_CullTransparentMesh: 0
 --- !u!4 &1889421742 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 753983299375163178, guid: aa3c5497cff0a564487a7ad716e637c5,
@@ -10843,17 +11086,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -10863,7 +11106,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &1918317689
@@ -10947,17 +11190,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -10967,7 +11210,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &1934697868 stripped
@@ -11057,17 +11300,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -11077,7 +11320,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &1940293165 stripped
@@ -11173,17 +11416,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -11193,9 +11436,86 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
+--- !u!1 &1954425926
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1954425927}
+  - component: {fileID: 1954425929}
+  - component: {fileID: 1954425928}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1954425927
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1954425926}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 340465948}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1954425928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1954425926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 30
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 3
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Demolish
+--- !u!222 &1954425929
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1954425926}
+  m_CullTransparentMesh: 0
 --- !u!1001 &1956873645
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11277,17 +11597,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -11297,7 +11617,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &1966523494 stripped
@@ -11405,17 +11725,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -11425,7 +11745,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &2041769874 stripped
@@ -11515,17 +11835,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -11535,7 +11855,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &2060083981 stripped
@@ -11544,6 +11864,79 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1839826139}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2061394551
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2061394552}
+  - component: {fileID: 2061394554}
+  - component: {fileID: 2061394553}
+  m_Layer: 5
+  m_Name: HealthBar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2061394552
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2061394551}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 695388978}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: 0, y: 48.4}
+  m_SizeDelta: {x: 0, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2061394553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2061394551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 1, b: 0.0029821396, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 6298cdcef7f65de4cab95da4bf75b338, type: 3}
+  m_Type: 3
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 0
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2061394554
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2061394551}
+  m_CullTransparentMesh: 0
 --- !u!4 &2061603964 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 753983299375163178, guid: aa3c5497cff0a564487a7ad716e637c5,
@@ -11631,17 +12024,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -11651,7 +12044,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &2074516725
@@ -11735,17 +12128,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -11755,7 +12148,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &2097095064
@@ -11839,17 +12232,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -11859,7 +12252,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!4 &2108806224 stripped
@@ -11949,17 +12342,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -11969,7 +12362,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &2126542929
@@ -12053,17 +12446,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -12073,7 +12466,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &2134906878
@@ -12157,17 +12550,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -12177,7 +12570,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &2144310293
@@ -12261,17 +12654,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -12281,7 +12674,7 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}
 --- !u!1001 &753983298044445350
@@ -12365,17 +12758,17 @@ PrefabInstance:
         type: 3}
       propertyPath: btn
       value: 
-      objectReference: {fileID: 923037200}
+      objectReference: {fileID: 28842896}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: demo
       value: 
-      objectReference: {fileID: 178152660}
+      objectReference: {fileID: 340465949}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraBtn
       value: 
-      objectReference: {fileID: 419774486}
+      objectReference: {fileID: 1874310052}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: auraTower
@@ -12385,6 +12778,6 @@ PrefabInstance:
         type: 3}
       propertyPath: upgradeBtn
       value: 
-      objectReference: {fileID: 1593919570}
+      objectReference: {fileID: 1462767658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa3c5497cff0a564487a7ad716e637c5, type: 3}

@@ -20,11 +20,11 @@ public class AuraTowerScript : MonoBehaviour
         if(other.gameObject.tag == "Tower")
         {
             other.gameObject.GetComponent<TowerScript>().addToAuraList(this.gameObject);
+            
         }
     }
      public void upgrade()
     {
-            print("upgrading this sumbitch!");
             damageBoost += 5;
             upgradeLvl += 1;
     }

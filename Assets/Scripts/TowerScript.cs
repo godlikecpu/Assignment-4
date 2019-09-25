@@ -36,13 +36,13 @@ public class TowerScript : MonoBehaviour
         foreach (GameObject g in auraList)
         {
             damage += g.GetComponent<AuraTowerScript>().damageBoost;
+            
         }
         yield return new WaitForSeconds(2);
         StartCoroutine(calculateAuras());
     }
     public void upgrade()
     {
-            print("upgrading this sumbitch!");
             basedamage += 10;
             upgradeLvl += 1;
     }

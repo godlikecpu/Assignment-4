@@ -19,6 +19,7 @@ public class PlayerScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Screen.sleepTimeout = SleepTimeout.NeverSleep;
         sm = GetComponent<ScoreManager>();
         gtxt = GameObject.FindGameObjectWithTag("goldtext").GetComponent<TextMeshProUGUI>();
         health = startHealth;

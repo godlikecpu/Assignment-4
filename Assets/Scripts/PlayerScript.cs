@@ -7,7 +7,7 @@ using TMPro;
 
 public class PlayerScript : MonoBehaviour
 {
-
+    ScoreManager sm;
     public GameObject tower;
     public float gold = 50f;
     TextMeshProUGUI gtxt;
@@ -19,6 +19,7 @@ public class PlayerScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        sm = GetComponent<ScoreManager>();
         gtxt = GameObject.FindGameObjectWithTag("goldtext").GetComponent<TextMeshProUGUI>();
         health = startHealth;
         gtxt.text = "Gold: " + gold;
@@ -45,6 +46,14 @@ public class PlayerScript : MonoBehaviour
 
         if(health <= 0)
         {
+
+            int highScore = PlayerPrefs.GetInt("High Score", 0);
+            int score = GameObject.FindGameObjectWithTag("EnemySpawner").GetComponent<EnemySpawner>().level;
+            if (score > highScore)
+            {
+                PlayerPrefs.SetInt("High Score", score);
+            }
+            
             SceneManager.LoadScene("GameOver");
         }
     }

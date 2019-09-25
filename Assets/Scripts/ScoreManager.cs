@@ -7,7 +7,7 @@ using TMPro;
 public class ScoreManager : MonoBehaviour
 {
     public static int score;
-    public static int highScore = 1;
+    public static int highScore;
 
     
 
@@ -15,11 +15,12 @@ public class ScoreManager : MonoBehaviour
     {
         highScore = PlayerPrefs.GetInt("High Score", 0);
         TextMeshProUGUI text1 = gameObject.GetComponent<TextMeshProUGUI>();
-        text1.text = "Lvl: TEST!" + highScore;
+        text1.text = "Level: " + highScore;
     }
     void Update()
     {
       //if gameOver, take level and set as highscore
     }
+
 }
 

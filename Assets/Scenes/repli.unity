@@ -216,8 +216,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -333,8 +332,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -438,8 +436,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -549,8 +546,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -654,8 +650,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -771,8 +766,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -1039,8 +1033,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -1268,8 +1261,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -1373,8 +1365,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -1478,8 +1469,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -1583,8 +1573,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -1737,8 +1726,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -1860,8 +1848,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -1965,8 +1952,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -2076,8 +2062,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -2193,8 +2178,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -2298,8 +2282,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -2409,8 +2392,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -2638,8 +2620,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -2743,8 +2724,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -2860,8 +2840,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -2971,8 +2950,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -3159,8 +3137,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -3276,8 +3253,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -3381,8 +3357,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -3486,8 +3461,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -3591,8 +3565,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -3702,8 +3675,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -3807,8 +3779,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -4057,8 +4028,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -4245,8 +4215,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -4350,8 +4319,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -4455,8 +4423,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -4637,8 +4604,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -4854,8 +4820,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -4965,8 +4930,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -5070,8 +5034,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -5175,8 +5138,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -5629,8 +5591,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -5734,8 +5695,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -5851,8 +5811,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -5962,8 +5921,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -6067,8 +6025,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -6172,8 +6129,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -6366,8 +6322,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -6471,8 +6426,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -6576,8 +6530,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -6687,8 +6640,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -6810,8 +6762,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -6921,8 +6872,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -7032,8 +6982,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -7137,8 +7086,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -7242,8 +7190,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -7347,8 +7294,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -7452,8 +7398,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -7557,8 +7502,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -7818,8 +7762,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -7923,8 +7866,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -8028,8 +7970,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -8139,8 +8080,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -8244,8 +8184,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -8349,8 +8288,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -8454,8 +8392,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -8559,8 +8496,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -8664,8 +8600,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -8769,8 +8704,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -8886,8 +8820,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -9003,8 +8936,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -9108,8 +9040,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -9219,8 +9150,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -9324,8 +9254,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -9577,8 +9506,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -9694,8 +9622,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -9799,8 +9726,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -9928,8 +9854,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -10039,8 +9964,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -10156,8 +10080,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -10350,8 +10273,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -10527,8 +10449,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -10638,8 +10559,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -10743,8 +10663,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -10939,8 +10858,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -11044,8 +10962,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -11155,8 +11072,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -11272,8 +11188,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -11377,8 +11292,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -11506,8 +11420,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -11617,8 +11530,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -11734,8 +11646,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -11839,8 +11750,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -11944,8 +11854,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -12055,8 +11964,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -12160,8 +12068,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -12265,8 +12172,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -12370,8 +12276,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn
@@ -12475,8 +12380,7 @@ PrefabInstance:
         type: 3}
       propertyPath: auraTower
       value: 
-      objectReference: {fileID: 2517671151601305442, guid: 446ee3123d8e3ee46b1a978b9aa20ce9,
-        type: 3}
+      objectReference: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
     - target: {fileID: -2363045722020334593, guid: aa3c5497cff0a564487a7ad716e637c5,
         type: 3}
       propertyPath: upgradeBtn

@@ -1373,7 +1373,7 @@ MonoBehaviour:
   orighp: 0
   goldReward: 10
   isBoss: 0
-  healthBar: {fileID: 0}
+  healthBar: {fileID: 8203420383888937720}
 --- !u!195 &8998153410826876585
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1817,3 +1817,15 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 5071376116168870960}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &8203420383888937720 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4015314027289992904, guid: fc4927e3b7f3f384780046226cedf4ad,
+    type: 3}
+  m_PrefabInstance: {fileID: 5071376116168870960}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

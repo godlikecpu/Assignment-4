@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
+
 public class PlayerScript : MonoBehaviour
 {
 
     public GameObject tower;
     public float gold = 50f;
-    Text txt;
+    TextMeshProUGUI gtxt;
     public float startHealth = 100;
     private float health;
     public Image healthBar;
@@ -17,8 +19,9 @@ public class PlayerScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        txt = GameObject.FindGameObjectWithTag("goldtext").GetComponent<Text>();
+        gtxt = GameObject.FindGameObjectWithTag("goldtext").GetComponent<TextMeshProUGUI>();
         health = startHealth;
+        gtxt.text = "Gold: " + gold;
     }
 
     // Update is called once per frame
@@ -30,7 +33,7 @@ public class PlayerScript : MonoBehaviour
     {
 
         gold += goldReward;
-        txt.text = "Gold: " + gold;
+        gtxt.text = "Gold: " + gold;
         return gold;
     }
 

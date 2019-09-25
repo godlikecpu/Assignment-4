@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.UI;
@@ -17,7 +18,7 @@ public class EnemySpawner : MonoBehaviour
     [Header("Spawn Stuff")]
     private float countDown = 2f;
     public float timeBetweenWaves = 5f;
-    public Text waveCountdownText;
+    public TextMeshProUGUI waveCountdownText;
     private int waveIndex = 0;
     public int level = 0;
     float enemyHP = 50;

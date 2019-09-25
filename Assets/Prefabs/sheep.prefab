@@ -690,6 +690,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6aef0de3d404678498abaa5399a9ac7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asource: {fileID: 0}
   isDead: 0
   hp: 100
   orighp: 0

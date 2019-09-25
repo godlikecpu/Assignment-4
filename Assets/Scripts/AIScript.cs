@@ -33,7 +33,6 @@ public class AIScript : MonoBehaviour
 
     }
 
-
     public float getGoldReward()
     {
         float goldR = goldReward;

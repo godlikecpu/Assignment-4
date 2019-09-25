@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.AI;
 
 public class AIScript : MonoBehaviour
 {
@@ -23,6 +24,10 @@ public class AIScript : MonoBehaviour
         if (!isBoss) { 
         GetComponentInChildren<Image>().gameObject.SetActive(false);
         }
+        else
+        {
+            goldReward = 100f;
+        }
 
         player = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<PlayerScript>();
     }
@@ -38,6 +43,11 @@ public class AIScript : MonoBehaviour
         float goldR = goldReward;
         goldReward = 0f;
         return goldR;
+    }
+
+    public void setSpeed(float speed)
+    {
+        GetComponent<NavMeshAgent>().speed = speed;
     }
 
 

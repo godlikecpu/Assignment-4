@@ -91,9 +91,13 @@ public class NodeScript : MonoBehaviour
         if (buildMode)
         {
             buildMode = false;
+            auraBtn.GetComponent<Image>().color = Color.white;
+            btn.GetComponent<Image>().color = Color.white;
         }
         else
         {
+            btn.GetComponent<Image>().color = Color.yellow;
+            auraBtn.GetComponent<Image>().color = Color.white;
             buildMode = true;
             auraMode = false;
         }
@@ -102,10 +106,14 @@ public class NodeScript : MonoBehaviour
     {
         if (auraMode)
         {
+            auraBtn.GetComponent<Image>().color = Color.white;
+            btn.GetComponent<Image>().color = Color.white;
             auraMode = false;
         }
         else
         {
+            btn.GetComponent<Image>().color = Color.white;
+            auraBtn.GetComponent<Image>().color = Color.yellow;
             auraMode = true;
             buildMode = false;
         }

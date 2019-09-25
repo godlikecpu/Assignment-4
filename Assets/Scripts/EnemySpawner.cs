@@ -67,7 +67,7 @@ public class EnemySpawner : MonoBehaviour
 
     IEnumerator SpawnWave()
     {
-        Debug.Log("Wave incomming!");
+        float speed = Random.Range(1, 3);
         waveIndex++;
         if (waveIndex == 5)
         {
@@ -75,14 +75,14 @@ public class EnemySpawner : MonoBehaviour
             boss = enemies[rnd];
             waveIndex = -1;
             boss.transform.localScale *= 5;
-            SpawnEnemy(boss, bossHP, true);
+            SpawnEnemy(boss, bossHP, true, speed);
             boss.transform.localScale /= 5;
             bossHP += 1000;
         }
 
         for (int i = 0; i < waveIndex; i++)
         {
-            SpawnEnemy(enemy, enemyHP, false);
+            SpawnEnemy(enemy, enemyHP, false, speed);
             yield return new WaitForSeconds(0.5f);
         }
 
@@ -91,13 +91,14 @@ public class EnemySpawner : MonoBehaviour
 
     }
 
-    void SpawnEnemy(GameObject spawn, float hp, bool boss)
+    void SpawnEnemy(GameObject spawn, float hp, bool boss, float speed)
     {
         lastEnemy = Instantiate(spawn, spawnNode.transform.position + offset, spawnNode.transform.rotation);
         lastEnemy.GetComponent<NavMeshAgent>().SetDestination(endNode.transform.position);
         StartCoroutine(checkPath());
         lastEnemy.GetComponent<AIScript>().setHp((int) hp);
         lastEnemy.GetComponent<AIScript>().isBoss = boss;
+        lastEnemy.GetComponent<AIScript>().setSpeed(speed);
     }
 
     IEnumerator checkPath()

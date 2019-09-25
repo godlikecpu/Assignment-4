@@ -44,6 +44,7 @@ public class ArrowScript : MonoBehaviour
             enemy.hp -= damage;
             if (enemy.hp <= 0)
             {
+                enemy.asource.enabled = true;
                 enemy.asource.Play();
                 Destroy(collision.gameObject);
                 float goldReward = enemy.getGoldReward();

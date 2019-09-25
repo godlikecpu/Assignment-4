@@ -72,10 +72,18 @@ public class NodeScript : MonoBehaviour
         else if (isSelected)
         {
             rd.material.color = startColor;
+            removeListeners();
             isSelected = false;
-            demo.onClick.RemoveListener(demolishTower);
-            upgradeBtn.onClick.RemoveListener(upgradeTower);
         }
+        if(!hasTower && !(buildMode || auraMode))
+        {
+            unselectAll();
+        }
+    }
+    void removeListeners()
+    {
+        demo.onClick.RemoveListener(demolishTower);
+        upgradeBtn.onClick.RemoveListener(upgradeTower);
     }
 
     void toggleBuildMode()
@@ -109,8 +117,8 @@ public class NodeScript : MonoBehaviour
         hasTower = false;
         player.addToGold(5);
         rd.material.color = startColor;
-        demo.onClick.RemoveListener(demolishTower);
-        upgradeBtn.onClick.RemoveListener(upgradeTower);
+        removeListeners();
+        isSelected = false;
     }
     void upgradeTower()
     {
@@ -162,6 +170,24 @@ public class NodeScript : MonoBehaviour
         }
         print(amount);
         return amount;
+    }
+
+    void unselectAll()
+    {
+        GameObject[] nodeList = GameObject.FindGameObjectsWithTag("Nodes");
+        foreach(GameObject node in nodeList)
+        {
+            try
+            {
+                node.GetComponent<NodeScript>().isSelected = false;
+                node.GetComponent<NodeScript>().removeListeners();
+                node.GetComponent<NodeScript>().rd.material.color = startColor;
+            }
+            catch (MissingComponentException)
+            {
+                print("Something went wrong when deselecting nodes");
+            }
+        }
     }
 
     // Start is called before the first frame update

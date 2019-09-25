@@ -22,14 +22,5 @@ public class ScoreManager : MonoBehaviour
       //if gameOver, take level and set as highscore
     }
 
-    public void setScore(int score)
-    {
-        highScore = PlayerPrefs.GetInt("High Score", 0);
-
-        if(score > highScore)
-        {
-            PlayerPrefs.SetInt("High Score", score);
-        }
-    }
 }
 

@@ -46,7 +46,14 @@ public class PlayerScript : MonoBehaviour
 
         if(health <= 0)
         {
-            sm.setScore(GameObject.FindGameObjectWithTag("EnemySpawner").GetComponent<EnemySpawner>().level);
+
+            int highScore = PlayerPrefs.GetInt("High Score", 0);
+            int score = GameObject.FindGameObjectWithTag("EnemySpawner").GetComponent<EnemySpawner>().level;
+            if (score > highScore)
+            {
+                PlayerPrefs.SetInt("High Score", score);
+            }
+            
             SceneManager.LoadScene("GameOver");
         }
     }

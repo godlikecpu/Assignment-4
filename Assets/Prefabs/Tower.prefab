@@ -121,7 +121,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1d7fb76786d42c4f897eda2f23f682d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  upgradeLvl: 0
+  upgradeLvl: 1
   arrow: {fileID: 3252770519268443666, guid: 731fb424d54b3da4d8f65d075789950f, type: 3}
   node: {fileID: 0}
   basedamage: 50

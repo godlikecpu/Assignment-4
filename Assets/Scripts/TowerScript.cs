@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TowerScript : MonoBehaviour
 {
-    public int upgradeLvl = 1;
+    [HideInInspector] public int upgradeLvl = 1;
     GameObject target;
     public GameObject arrow;
     public GameObject node;

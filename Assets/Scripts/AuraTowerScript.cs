@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AuraTowerScript : MonoBehaviour
 {
-    public int upgradeLvl = 1;
+    [HideInInspector] public int upgradeLvl = 1;
     public float range = 3f;
     public float damageBoost = 10f;
     

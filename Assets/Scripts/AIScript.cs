@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class AIScript : MonoBehaviour
 {
-
+    public AudioSource asource;
     public bool isDead = false;
     public float hp;
     public float orighp;
@@ -19,6 +19,7 @@ public class AIScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        asource = GetComponent<AudioSource>();
         if (!isBoss) { 
         GetComponentInChildren<Image>().gameObject.SetActive(false);
         }
@@ -31,6 +32,7 @@ public class AIScript : MonoBehaviour
     {
 
     }
+
 
     public float getGoldReward()
     {

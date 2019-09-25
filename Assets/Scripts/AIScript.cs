@@ -32,6 +32,13 @@ public class AIScript : MonoBehaviour
 
     }
 
+    public float getGoldReward()
+    {
+        float goldR = goldReward;
+        goldReward = 0f;
+        return goldR;
+    }
+
 
     private void OnTriggerStay(Collider other)
     {

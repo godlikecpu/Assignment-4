@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 public class PlayerScript : MonoBehaviour
 {
-
+    ScoreManager sm;
     public GameObject tower;
     public float gold = 50f;
     Text txt;
@@ -17,6 +17,7 @@ public class PlayerScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        sm = GetComponent<ScoreManager>();
         txt = GameObject.FindGameObjectWithTag("goldtext").GetComponent<Text>();
         health = startHealth;
     }
@@ -42,6 +43,7 @@ public class PlayerScript : MonoBehaviour
 
         if(health <= 0)
         {
+            sm.setScore(GameObject.FindGameObjectWithTag("EnemySpawner").GetComponent<EnemySpawner>().level);
             SceneManager.LoadScene("GameOver");
         }
     }

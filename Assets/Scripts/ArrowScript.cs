@@ -44,9 +44,9 @@ public class ArrowScript : MonoBehaviour
             enemy.hp -= damage;
             if (enemy.hp <= 0)
             {
+                enemy.asource.Play();
                 Destroy(collision.gameObject);
                 float goldReward = enemy.getGoldReward();
-                enemy.asource.Play();
                 GameObject.FindGameObjectWithTag("MainCamera").GetComponent<PlayerScript>().addToGold(goldReward);
                 Instantiate(expl, collision.gameObject.transform.position, Quaternion.identity);
                 

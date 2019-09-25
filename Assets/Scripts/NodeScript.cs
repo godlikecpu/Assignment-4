@@ -179,9 +179,12 @@ public class NodeScript : MonoBehaviour
         {
             try
             {
+                if(!node.GetComponent<NodeScript>().unbuildable)
+                {
                 node.GetComponent<NodeScript>().isSelected = false;
                 node.GetComponent<NodeScript>().removeListeners();
                 node.GetComponent<NodeScript>().rd.material.color = startColor;
+                }
             }
             catch (MissingComponentException)
             {

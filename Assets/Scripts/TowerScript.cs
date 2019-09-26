@@ -21,7 +21,7 @@ public class TowerScript : MonoBehaviour
     void Start()
     {
         GetComponent<SphereCollider>().radius = range;
-        StartCoroutine(calculateAuras());
+        StartCoroutine(calculateAuras());  
     }
 
     // Update is called once per frame

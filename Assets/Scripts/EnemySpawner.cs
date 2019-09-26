@@ -67,7 +67,7 @@ public class EnemySpawner : MonoBehaviour
 
     IEnumerator SpawnWave()
     {
-        float speed = Random.Range(1, 3);
+        float speed = Random.Range(1, 2);
         waveIndex++;
         if (waveIndex == 5)
         {

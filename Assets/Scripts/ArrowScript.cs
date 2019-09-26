@@ -33,8 +33,8 @@ public class ArrowScript : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        AIScript enemy = collision.gameObject.GetComponent<AIScript>();
 
+        AIScript enemy = collision.gameObject.GetComponent<AIScript>();
         if ((collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "Boss") && dangerous)
         {
             if (enemy.isBoss)

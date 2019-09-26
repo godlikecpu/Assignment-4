@@ -15,7 +15,9 @@ public class ScoreManager : MonoBehaviour
     {
         highScore = PlayerPrefs.GetInt("High Score", 0);
         TextMeshProUGUI text1 = gameObject.GetComponent<TextMeshProUGUI>();
+        if(text1 != null) { 
         text1.text = "Level: " + highScore;
+        }
     }
     void Update()
     {
